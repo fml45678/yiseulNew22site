@@ -20,12 +20,21 @@
 }
 
 .circle__text {
+  font-family: "C90Degree";
+  font-weight: 900;
+  color: #16463b;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
   position: absolute;
-  bottom: 30%;
-  left: 20%;
+  bottom: 34%;
+  left: 26%;
   font-size: 3.8vw;
 }
 .circle__textSingle {
+  font-family: "C90Degree";
+  font-weight: 900;
+  color: #16463b;
+  /* this text-shadow, like above, is a temporary solution */
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
   position: absolute;
   bottom: 40%;
   left: 32%;

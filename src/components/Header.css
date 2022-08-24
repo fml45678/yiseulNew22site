@@ -1,10 +1,11 @@
 .header {
   font-family: arial;
   margin-top: 16vw;
-  margin-bottom: 16vw;
+  margin-bottom: 10vw;
 }
 
 .header > span {
   margin-left: 10vw;
-  font-weight: 520;
+  font-weight: 500;
+  font-size: 4.3vw;
 }

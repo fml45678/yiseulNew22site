@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "C90Degree";
+  src: local("C90Degree"), url("./fonts/C90Degree-Regular.otf");
+}
