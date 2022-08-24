@@ -4,7 +4,11 @@
   margin-bottom: 10vw;
 }
 
-.header > span {
+.header > a {
+  all: inherit;
+}
+
+.header > a > span {
   margin-left: 10vw;
   font-weight: 500;
   font-size: 4.3vw;

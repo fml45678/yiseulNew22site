@@ -1,0 +1,11 @@
+.subHeader__container {
+  display: flex;
+  justify-content: center;
+  gap: 0vw 9vw;
+}
+
+.subHeader__container > a {
+  color: #100f0f;
+  text-decoration: none;
+  font-size: 3.3vw;
+}

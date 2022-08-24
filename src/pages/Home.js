@@ -1,15 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home__container">
       <div className="circleGroup">
-        <div className="circle">
-          <div className="circle__text">
-            Level A <br /> Projects
+        <Link to="/a">
+          <div className="circle">
+            <div className="circle__text">
+              Level A <br /> Projects
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="circle">
           <div className="circle__text">
             Level B <br /> Projects
