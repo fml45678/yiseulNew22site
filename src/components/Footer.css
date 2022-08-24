@@ -1,0 +1,11 @@
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__text {
+  margin-bottom: 30px;
+  margin-top: 5vw;
+  font-size: 3vw;
+}

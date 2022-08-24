@@ -1,0 +1,33 @@
+.home__container {
+  /* figure out how to apply min-height to every page */
+  min-height: 70vh;
+}
+
+.circle {
+  background-color: #b9b2b24d;
+  height: 26vw;
+  width: 26vw;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circleGroup {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-around; */
+  gap: 27vw 17vw;
+  justify-content: center;
+}
+
+.circle__text {
+  position: absolute;
+  bottom: 30%;
+  left: 20%;
+  font-size: 3.8vw;
+}
+.circle__textSingle {
+  position: absolute;
+  bottom: 40%;
+  left: 32%;
+  font-size: 3.8vw;
+}
