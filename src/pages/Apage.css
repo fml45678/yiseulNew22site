@@ -1,3 +1,9 @@
 .aPage__container {
   min-height: 70vh;
 }
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 0vw 3vw;
+  margin-top: 5vw;
+}

@@ -1,0 +1,16 @@
+.circle__legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circleOne {
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+}
+.circle__legend > span {
+  font-size: 1.4vw;
+}
+.circle__lineOne {
+  margin-top: 0.75vw;
+}
