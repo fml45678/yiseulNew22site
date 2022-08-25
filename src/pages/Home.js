@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home__container">
       <div className="circleGroup">
-        <Link to="/a">
+        <Link to="/page/a">
           <div className="circle">
             <div className="circle__text">
               Level A <br /> Projects

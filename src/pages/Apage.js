@@ -1,6 +1,5 @@
 import React from "react";
 import Legend from "../components/Legend";
-import SubHeader from "../components/SubHeader";
 import "./Apage.css";
 
 const legendData = [
@@ -15,13 +14,10 @@ const legendData = [
 function Apage() {
   return (
     <div className="aPage__container">
-      {/* I wonder if there is a better way to render this subHeader on all of the pages that are not the homepage?
-      I think there probaly is something I can do on app.js, similar to how I implemented the header and footer */}
-      <SubHeader />
-
       <div className="aPageLegend__container">
-        {legendData.map((legend) => (
+        {legendData.map((legend, key) => (
           <Legend
+            key={key}
             color={legend.color}
             lineOne={legend.lineOne}
             lineTwo={legend.lineTwo}
