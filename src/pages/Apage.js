@@ -19,7 +19,7 @@ function Apage() {
       I think there probaly is something I can do on app.js, similar to how I implemented the header and footer */}
       <SubHeader />
 
-      <div className="legend">
+      <div className="aPageLegend__container">
         {legendData.map((legend) => (
           <Legend
             color={legend.color}
