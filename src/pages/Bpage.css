@@ -1,0 +1,9 @@
+.bPage__container {
+    min-height: 70vh;
+  }
+  .bPageLegend__container {
+    display: flex;
+    justify-content: center;
+    gap: 0vw 4.1vw;
+    margin-top: 5vw;
+  }

@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Apage from "./pages/Apage";
+import Bpage from "./pages/Bpage";
+import Cpage from "./pages/Cpage";
 import SubHeader from "./components/SubHeader";
 import Lost from "./pages/Lost";
 
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="page" element={<SubHeader />}>
           <Route path="a" element={<Apage />} />
+          <Route path="b" element={<Bpage />} />
+          <Route path="c" element={<Cpage />} />
           <Route path="*" element={<Lost />} />
         </Route>
       </Routes>

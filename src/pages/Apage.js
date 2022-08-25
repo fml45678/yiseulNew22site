@@ -2,7 +2,7 @@ import React from "react";
 import Legend from "../components/Legend";
 import "./Apage.css";
 
-const legendData = [
+const aPageLegendData = [
   { color: "#16463b", lineOne: "LIVE", lineTwo: "Performance" },
   { color: "#D2A53B", lineOne: "POST", lineTwo: "Production" },
   { color: "#95B2D5", lineOne: "Part of BIG", lineTwo: null },
@@ -15,7 +15,7 @@ function Apage() {
   return (
     <div className="aPage__container">
       <div className="aPageLegend__container">
-        {legendData.map((legend, key) => (
+        {aPageLegendData.map((legend, key) => (
           <Legend
             key={key}
             color={legend.color}
