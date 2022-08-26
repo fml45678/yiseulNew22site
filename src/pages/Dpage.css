@@ -1,0 +1,56 @@
+.dContainer {
+  display: flex;
+  justify-content: center;
+  gap: 37vw;
+  margin-top: 10vw;
+  min-height: 70vh;
+}
+.dPage__circleRight {
+  display: flex;
+}
+.dPageCircle__full {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-color: #de1717;
+}
+.dPageCircle__border {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  border: 1.3vw solid #de1717;
+  background-color: transparent;
+  position: relative;
+}
+.dPageTri__right {
+  width: 0;
+  height: 0;
+  border-top: 8vw solid transparent;
+  border-bottom: 8vw solid transparent;
+  border-left: 8vw solid #de1717;
+  position: relative;
+  margin-right: -1vw;
+  transform: scaleY(0.26);
+}
+.dPageTri__right::after {
+  content: "";
+  width: 0;
+  height: 0;
+  /* opacity: 0.4; */
+  border-top: 8vw solid transparent;
+  border-bottom: 8vw solid transparent;
+  border-left: 8vw solid white;
+  position: absolute;
+  top: -8vw;
+  right: 2vw;
+}
+.dPage__circleText {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
+  font-size: 4vw;
+  position: absolute;
+  bottom: 34%;
+  left: 19%;
+  color: #2b66a0;
+}
