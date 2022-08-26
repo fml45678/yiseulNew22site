@@ -1,0 +1,16 @@
+.gallery__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vw;
+  row-gap: 2vw;
+}
+.gallery__legend {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+}
+.gallery__container > img {
+  width: 50vw;
+  height: 28vw;
+}

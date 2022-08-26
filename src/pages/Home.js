@@ -13,28 +13,38 @@ function Home() {
             </div>
           </div>
         </Link>
-        <div className="circle">
-          <div className="circle__text">
-            Level B <br /> Projects
+        <Link to="/page/b">
+          <div className="circle">
+            <div className="circle__text">
+              Level B <br /> Projects
+            </div>
           </div>
-        </div>
-        <div className="circle">
-          <div className="circle__text">
-            Level C <br /> Projects
+        </Link>
+        <Link to="/page/c">
+          <div className="circle">
+            <div className="circle__text">
+              Level C <br /> Projects
+            </div>
           </div>
-        </div>
-        <div className="circle">
-          <div className="circle__text">
-            Level D <br /> Projects
+        </Link>
+        <Link to="/page/d">
+          <div className="circle">
+            <div className="circle__text">
+              Level D <br /> Projects
+            </div>
           </div>
-        </div>
+        </Link>
 
-        <div className="circle">
-          <div className="circle__textSingle">YOU</div>
-        </div>
-        <div className="circle">
-          <div className="circle__textSingle">I, IT</div>
-        </div>
+        <Link to="/page/you">
+          <div className="circle">
+            <div className="circle__textSingle">YOU</div>
+          </div>
+        </Link>
+        <Link to="/page/iit">
+          <div className="circle">
+            <div className="circle__textSingle">I, IT</div>
+          </div>
+        </Link>
       </div>
     </div>
   );

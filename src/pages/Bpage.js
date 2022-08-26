@@ -1,6 +1,7 @@
 import React from "react";
 import "./Bpage.css";
 import Legend from "../components/Legend";
+import Gallery from "../components/Gallery";
 
 const bPageLegendData = [
   { color: "#10325B", lineOne: "MULTI XX", lineTwo: null },
@@ -9,6 +10,9 @@ const bPageLegendData = [
   { color: "#2972AE", lineOne: "Part of BIG", lineTwo: null },
   { color: "#7B221C", lineOne: "Commissioned", lineTwo: null },
 ];
+
+// placeholder image for testing purposes
+const gallery = [{ image: "/demo7.png", alt: "tone grove", legend: "#10325B" }];
 
 function Bpage() {
   return (
@@ -20,6 +24,16 @@ function Bpage() {
             color={legend.color}
             lineOne={legend.lineOne}
             lineTwo={legend.lineTwo}
+          />
+        ))}
+      </div>
+      <div>
+        {gallery.map((gallery, key) => (
+          <Gallery
+            key={key}
+            image={gallery.image}
+            alt={gallery.alt}
+            legend={gallery.legend}
           />
         ))}
       </div>
