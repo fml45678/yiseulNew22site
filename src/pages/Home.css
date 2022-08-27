@@ -1,6 +1,7 @@
 .home__container {
   /* figure out how to apply min-height to every page */
   min-height: 70vh;
+  margin-top: 10vw;
 }
 
 .circle {

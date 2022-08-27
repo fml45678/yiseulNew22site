@@ -1,9 +1,24 @@
+.dPage__container {
+  min-height: 70vh;
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15vw;
+
+  /* this is for the ipad version} */
+
+  /* .dpage__headerTitle {
+  margin-left: 50vw; */
+}
 .dContainer {
   display: flex;
   justify-content: center;
-  gap: 37vw;
-  margin-top: 10vw;
-  min-height: 70vh;
+  column-gap: 37vw;
+}
+.dContainer__noMiddleText {
+  display: flex;
+  justify-content: center;
+  column-gap: 45vw;
 }
 .dPage__circleRight {
   display: flex;
@@ -48,9 +63,149 @@
   font-family: "C90Degree";
   font-weight: 900;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
-  font-size: 4vw;
+  font-size: 3.5vw;
   position: absolute;
-  bottom: 34%;
-  left: 19%;
+  bottom: 36%;
+  left: 24%;
   color: #2b66a0;
+}
+.dPage__middleText1 {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 8.3vw;
+  text-align: right;
+  right: 24vw;
+  color: #2b66a0;
+  width: 37vw;
+}
+.dPage__middleText2 {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 5vw;
+  text-align: right;
+  right: 24vw;
+  color: #2b66a0;
+  width: 37vw;
+}
+.dPage__middleTextBottom {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #d2a53b;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 5.5vw;
+  text-align: right;
+  left: 10vw;
+  color: #d2a53b;
+  width: 35vw;
+}
+
+#twoFull {
+  background-color: #ddc73e;
+}
+#twoBorder {
+  border: 1.3vw solid #ddc73e;
+}
+
+#twoText {
+  left: 32%;
+}
+
+#twoTri {
+  border-left: 8vw solid #ddc73e;
+}
+
+#threeFull {
+  background-color: #2972ae;
+}
+#threeBorder {
+  border: 1.3vw solid #2972ae;
+}
+#threeText {
+  left: 2%;
+  font-size: 3.3vw;
+}
+#threeMiddleTextOne {
+  bottom: 10vw;
+}
+
+#threeTri {
+  border-left: 8vw solid #2972ae;
+}
+#threeBorder > div {
+  bottom: 1vw;
+  /* right: 24vw; */
+  width: 37vw;
+  text-align: center;
+}
+
+#oneNoMidFull {
+  background-color: #3f6d5b;
+}
+#oneNoMidBorder {
+  border: 1.3vw solid #3f6d5b;
+}
+#oneNoMidText {
+  left: 4%;
+}
+
+#twoNoMidFull {
+  background-color: #a8adc0;
+}
+#twoNoMidBorder {
+  border: 1.3vw solid #a8adc0;
+}
+#twoNoMidText {
+  left: 3%;
+  bottom: 28%;
+  font-size: 3vw;
+  text-align: center;
+}
+
+#fourFull {
+  background-color: #d2a53b;
+}
+#fourBorder {
+  border: 1.3vw solid #d2a53b;
+}
+
+#fourText {
+  left: 14%;
+  bottom: 35%;
+}
+#fiveFull {
+  background-color: #eea4c8;
+}
+#fiveBorder {
+  border: 1.3vw solid #eea4c8;
+}
+
+#fiveText {
+  left: 26%;
+  bottom: 10%;
+}
+
+#fiveMiddleText {
+  left: unset;
+  right: 35vw;
+  color: #eea4c8;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #eea4c8;
+}
+
+#threeNoMidFull {
+  background-color: #b0412f;
+}
+#threeNoMidBorder {
+  border: 1.3vw solid #b0412f;
+}
+#threeNoMidText {
+  left: 8%;
+  bottom: 15%;
+  font-size: 3vw;
 }
