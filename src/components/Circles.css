@@ -1,0 +1,22 @@
+.circles__container {
+  width: 100vw;
+  /* position: relative; */
+}
+.circles__circles {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circles__text {
+  font-family: "C90Degree";
+  font-weight: 900;
+  color: #f3f3f3;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #f3f3f3;
+  position: absolute;
+  bottom: 24%;
+  left: 6%;
+  font-size: 3vw;
+  text-align: center;
+}
