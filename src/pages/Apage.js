@@ -2,6 +2,7 @@ import React from "react";
 import Legend from "../components/Legend";
 import Videos from "../components/Videos";
 import "./Apage.css";
+import aPageVideos from "../data/VideoDataForAPage.js";
 
 const aPageLegendData = [
   { color: "#16463b", lineOne: "LIVE", lineTwo: "Performance" },
@@ -13,38 +14,6 @@ const aPageLegendData = [
 ];
 
 // 23 videos in total
-const aPageVideos = [
-  {
-    url: "https://www.youtube.com/embed/ADZYn3cOp-o",
-    title: "Self Expression",
-    year: "2021",
-    description: "hello",
-    legend: "#16463B",
-    legend2: "#EEA4C8",
-    legend3: null,
-    legend4: null,
-  },
-  {
-    url: "https://www.youtube.com/embed/DfUSB5VqK44",
-    title: "These Patterns",
-    year: "2022",
-    description: "hello",
-    legend: "#D2A53B",
-    legend2: "#ED5D32",
-    legend3: null,
-    legend4: null,
-  },
-  {
-    url: "https://www.youtube.com/embed/2Whun0iX3kE?",
-    title: "Toothbrush",
-    year: "2021",
-    description: "hello",
-    legend: "pink",
-    legend2: null,
-    legend3: null,
-    legend4: null,
-  },
-];
 
 function Apage() {
   return (
@@ -66,6 +35,9 @@ function Apage() {
             url={aPageVideos.url}
             legend={aPageVideos.legend}
             legend2={aPageVideos.legend2}
+            display2={aPageVideos.display2}
+            display3={aPageVideos.display3}
+            display4={aPageVideos.display4}
             legend3={aPageVideos.legend3}
             legend4={aPageVideos.legend4}
             title={aPageVideos.title}

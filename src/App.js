@@ -8,6 +8,7 @@ import Apage from "./pages/Apage";
 import Bpage from "./pages/Bpage";
 import Cpage from "./pages/Cpage";
 import Dpage from "./pages/Dpage";
+import Iit from "./pages/Iit";
 import SubHeader from "./components/SubHeader";
 import Lost from "./pages/Lost";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="b" element={<Bpage />} />
           <Route path="c" element={<Cpage />} />
           <Route path="d" element={<Dpage />} />
+          <Route path="iit" element={<Iit />} />
           <Route path="*" element={<Lost />} />
         </Route>
       </Routes>
