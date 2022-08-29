@@ -10,14 +10,20 @@
   color: #16463b;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.7vw;
   width: 12vw;
   position: absolute;
   bottom: 20%;
+  left: 23%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
 }
-/* .circleText__lineOne {
-  
-} */
+.circleText__textOne {
+  font-style: italic;
+  font-weight: 700;
+}
+
 .pageC__circleLegend {
   height: 3vw;
   width: 3vw;
@@ -26,4 +32,10 @@
 .pageC__legendContainer {
   display: flex;
   gap: 2vw;
+  margin-top: 2vw;
+}
+.pageC__legendBottomContainer {
+  display: flex;
+  gap: 2vw;
+  margin-top: 2vw;
 }

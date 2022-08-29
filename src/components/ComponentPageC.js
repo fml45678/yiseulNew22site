@@ -15,8 +15,8 @@ export default class ComponentPageC extends React.Component {
       display1: props.display1,
       display2: props.display2,
       display3: props.display3,
-      display4: props.display4,
-      display5: props.display5,
+      // display4: props.display4,
+      // display5: props.display5,
     };
   }
 
@@ -27,24 +27,40 @@ export default class ComponentPageC extends React.Component {
           <div className="circle__legend">
             <div className="pageC__circle">
               <div className="pageC__circleText">
-                <span className="circleText__lineOne">
+                <span className="circleText__textOne">
                   {this.state.textOne}
                 </span>
-                <br />
-                <span className="circleText__lineTwo">
+                <span className="circleText__textTwo">
                   {this.state.textTwo}
                 </span>
               </div>
             </div>
             <div className="pageC__legendContainer">
               <div
-                style={{ backgroundColor: this.state.legend1 }}
+                style={{
+                  backgroundColor: this.state.legend1,
+                  display: this.state.display1,
+                }}
                 className="pageC__circleLegend"
               ></div>
               <div
-                style={{ backgroundColor: this.state.legend2 }}
+                style={{
+                  backgroundColor: this.state.legend2,
+                  display: this.state.display2,
+                }}
                 className="pageC__circleLegend"
               ></div>
+              <div
+                style={{
+                  backgroundColor: this.state.legend3,
+                  display: this.state.display3,
+                }}
+                className="pageC__circleLegend"
+              ></div>
+            </div>
+            <div className="pageC__legendBottomContainer">
+              {this.state.legend4}
+              {this.state.legend5}
             </div>
           </div>
         </div>
