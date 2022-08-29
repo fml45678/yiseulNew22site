@@ -11,6 +11,9 @@
   border-radius: 50%;
 }
 .gallery__container > img {
-  width: 50vw;
-  height: 28vw;
+  width: 38vw;
+}
+.pictureLegend__container {
+  display: flex;
+  gap: 3vw;
 }
