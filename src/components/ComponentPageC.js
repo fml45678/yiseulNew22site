@@ -15,8 +15,6 @@ export default class ComponentPageC extends React.Component {
       display1: props.display1,
       display2: props.display2,
       display3: props.display3,
-      // display4: props.display4,
-      // display5: props.display5,
     };
   }
 

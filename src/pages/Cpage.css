@@ -10,8 +10,10 @@
 .cPage__circlesContainer {
   display: flex;
   justify-content: center;
-  gap: 12vw;
+  gap: 6vw 12vw;
   margin-top: 8vw;
+  margin-bottom: 8vw;
+  flex-wrap: wrap;
 }
 .headphones {
   color: #2972ae;
@@ -19,6 +21,9 @@
 
 .eye {
   color: #e0dcdc;
+}
+.eyeRed {
+  color: #db3529;
 }
 .play {
   color: #16463b;

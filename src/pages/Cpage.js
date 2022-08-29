@@ -2,9 +2,7 @@ import React from "react";
 import "./Cpage.css";
 import Legend from "../components/Legend";
 import ComponentPageC from "../components/ComponentPageC";
-import HeadphonesIcon from "@mui/icons-material/Headphones";
-import VisibilityIcon from "@mui/icons-material/Visibility";
-import VideoLibraryIcon from "@mui/icons-material/VideoLibrary";
+import component from "../data/CirclesForCPage";
 
 const cPageLegendData = [
   { color: "#EFC2C2", lineOne: "LIVE", lineTwo: "Performance" },
@@ -15,25 +13,6 @@ const cPageLegendData = [
   { color: "#A8ADC0", lineOne: "Commissioned", lineTwo: null },
 ];
 
-const component = [
-  {
-    textOne: "Felt Trap",
-    textTwo: "2021 Piano",
-    legend1: "#928F47",
-    legend2: "#F1B168",
-    display3: "none",
-    legend4: <HeadphonesIcon className="headphones" />,
-  },
-  {
-    textOne: "Felt Trap",
-    textTwo: "2021 Piano",
-    legend1: "#928F47",
-    legend2: "#F1B168",
-    display3: "none",
-    legend4: <VisibilityIcon className="eye" />,
-    legend5: <VideoLibraryIcon className="play" />,
-  },
-];
 console.log(component);
 function Cpage() {
   return (
@@ -62,8 +41,6 @@ function Cpage() {
             display1={component.display1}
             display2={component.display2}
             display3={component.display3}
-            // display4={component.display4}
-            // display5={component.display5}
           />
         ))}
       </div>
