@@ -1,0 +1,29 @@
+.pageC__circle {
+  height: 26vw;
+  width: 26vw;
+  background-color: #d0cdcd;
+  border-radius: 50%;
+  position: relative;
+}
+
+.pageC__circleText {
+  color: #16463b;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3vw;
+  width: 12vw;
+  position: absolute;
+  bottom: 20%;
+}
+/* .circleText__lineOne {
+  
+} */
+.pageC__circleLegend {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+}
+.pageC__legendContainer {
+  display: flex;
+  gap: 2vw;
+}

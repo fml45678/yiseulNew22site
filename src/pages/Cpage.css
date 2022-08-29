@@ -7,3 +7,9 @@
   gap: 0vw 4.1vw;
   margin-top: 5vw;
 }
+.cPage__circlesContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12vw;
+  margin-top: 8vw;
+}
