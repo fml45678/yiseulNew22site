@@ -1,0 +1,70 @@
+.modal1Container__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(231, 227, 227);
+  opacity: 0.95;
+  position: fixed;
+  z-index: 10;
+}
+
+.modal1__container {
+  font-family: "C90Degree";
+  font-weight: 900;
+  color: #16463b;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
+  font-size: 3.8vw;
+  width: 70.5vw;
+  height: 48vw;
+  border: 2vw solid #d23021;
+  background-color: white;
+  border-radius: 4vw;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.modal1__textContainer {
+  display: flex;
+  flex-direction: column;
+}
+.small {
+  font-size: 2.3vw;
+  margin-bottom: 0.8vw;
+}
+#modal2 {
+  border: 3.8vw solid #d7bf4c;
+  border-radius: 40vw;
+  height: 35vw;
+}
+.modal2__choices {
+  display: flex;
+  margin-top: 5vw;
+  justify-content: center;
+  gap: 28vw;
+}
+.modal2__circles {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 50%;
+  background-color: #4b5c28;
+}
+.modal2__circles:nth-child(2) {
+  background-color: #95b2d5;
+}
+.modal2__circles > span {
+  position: relative;
+  top: 4vw;
+  right: 2vw;
+}
+.modal3__svg > svg {
+  width: 60vw;
+  height: 60vw;
+}
+.modal4__svg > svg {
+  width: 60vw;
+  height: 60vw;
+}

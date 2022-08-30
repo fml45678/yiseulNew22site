@@ -12,11 +12,19 @@ import You from "./pages/You";
 import Iit from "./pages/Iit";
 import SubHeader from "./components/SubHeader";
 import Lost from "./pages/Lost";
+import Modal1 from "./components/Modal1";
+import Modal2 from "./components/Modal2";
+import Modal3 from "./components/Modal3";
+import Modal4 from "./components/Modal4";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Modal1 />
+      <Modal2 />
+      <Modal3 />
+      <Modal4 />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="page" element={<SubHeader />}>
