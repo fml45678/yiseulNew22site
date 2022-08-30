@@ -1,0 +1,29 @@
+.videoDescriptionModal {
+  font-family: "C90Degree";
+  font-weight: 900;
+  color: #16463b;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
+  /* position: absolute; */
+  margin-top: -6vw;
+  margin-left: 40vw;
+  font-size: 3.8vw;
+  width: 33vw;
+  height: 30vw;
+  border: 1vw solid #2b66a0;
+  background-color: white;
+  border-radius: 8vw;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoDescriptionModal > p {
+  width: 28vw;
+}
+
+.description__text {
+  color: #7c7676;
+  text-decoration: underline;
+  text-decoration-color: #7c7676;
+  cursor: pointer;
+}

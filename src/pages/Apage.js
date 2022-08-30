@@ -3,6 +3,7 @@ import Legend from "../components/Legend";
 import Videos from "../components/Videos";
 import "./Apage.css";
 import aPageVideos from "../data/VideoDataForAPage.js";
+import VideoModal from "../components/VideoModal";
 
 const aPageLegendData = [
   { color: "#16463b", lineOne: "LIVE", lineTwo: "Performance" },
@@ -12,8 +13,6 @@ const aPageLegendData = [
   { color: "#2B61D5", lineOne: "Etudes", lineTwo: null },
   { color: "#ED5D32", lineOne: "Commissioned", lineTwo: null },
 ];
-
-// 23 videos in total
 
 function Apage() {
   return (

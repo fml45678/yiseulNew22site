@@ -1,5 +1,6 @@
 import React from "react";
 import "./Videos.css";
+import VideoModal from "./VideoModal";
 
 export default class Videos extends React.Component {
   constructor(props) {
@@ -63,7 +64,8 @@ export default class Videos extends React.Component {
           </div>
           <span className="video__title">Title: {this.state.title}</span>
           <span className="video__title">Year: {this.state.year}</span>
-          <span className="video__description">Description</span>
+          <VideoModal />
+          {/* <span className="video__description">Description</span> */}
           {/* <p className="video__description">{this.state.description}</p> */}
         </div>
       </div>
