@@ -19,7 +19,7 @@ const iItCircles = [
     color: "#D23021",
     text: "Don’t want to Fall asleep",
     top: "92vw",
-    left: "102.5vw",
+    left: "52.5vw",
   },
 
   { color: "#95B2D5", text: "Your Truth", top: "118.25vw", left: "33.75vw" },

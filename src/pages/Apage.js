@@ -3,7 +3,6 @@ import Legend from "../components/Legend";
 import Videos from "../components/Videos";
 import "./Apage.css";
 import aPageVideos from "../data/VideoDataForAPage.js";
-import VideoModal from "../components/VideoModal";
 
 const aPageLegendData = [
   { color: "#16463b", lineOne: "LIVE", lineTwo: "Performance" },
