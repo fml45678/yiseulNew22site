@@ -13,7 +13,6 @@ const cPageLegendData = [
   { color: "#A8ADC0", lineOne: "Commissioned", lineTwo: null },
 ];
 
-console.log(component);
 function Cpage() {
   return (
     <div className="cPage__container">
