@@ -1,9 +1,14 @@
 .bPage__container {
-    min-height: 70vh;
-  }
-  .bPageLegend__container {
-    display: flex;
-    justify-content: center;
-    gap: 0vw 4.1vw;
-    margin-top: 5vw;
-  }
+  min-height: 70vh;
+}
+.bPageLegend__container {
+  display: flex;
+  justify-content: center;
+  gap: 0vw 4.1vw;
+  margin-top: 5vw;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}

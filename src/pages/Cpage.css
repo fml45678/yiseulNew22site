@@ -6,6 +6,12 @@
   justify-content: center;
   gap: 0vw 4.1vw;
   margin-top: 5vw;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 5;
 }
 .cPage__circlesContainer {
   display: flex;
