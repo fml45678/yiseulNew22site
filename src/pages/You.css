@@ -42,6 +42,7 @@
 }
 .feedbackCircle__submitButton {
   height: 2.5vw;
+  cursor: pointer;
   width: 2.5vw;
   border-radius: 50%;
   background-color: #cf3e2c;
@@ -52,7 +53,14 @@
   border-radius: 2.5vw;
   border: 0.35vw solid #212941;
   margin-bottom: 4vw;
+  font-size: 3vw;
+  font-family: "C90Degree";
+  font-weight: 700;
+  text-align: center;
   resize: none;
+}
+.you__feedbackCircleText {
+  cursor: pointer;
 }
 
 #youCirlceTwo {
@@ -68,7 +76,7 @@
   width: 29vw;
 }
 .you__feedbackCircle__input {
-  width: 39vw;
+  width: 35vw;
   height: 6.25vw;
   border-radius: 2.5vw;
   border: 0.25vw solid #212941;
