@@ -64,7 +64,7 @@ export default class Videos extends React.Component {
           </div>
           <span className="video__title">Title: {this.state.title}</span>
           <span className="video__title">Year: {this.state.year}</span>
-          <VideoModal />
+          <VideoModal description={this.state.description} />
           {/* <span className="video__description">Description</span> */}
           {/* <p className="video__description">{this.state.description}</p> */}
         </div>
