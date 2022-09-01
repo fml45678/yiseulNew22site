@@ -4,10 +4,14 @@
   position: relative;
 }
 .circles__circles {
-  width: 15vw;
-  height: 15vw;
+  width: 18vw;
+  height: 18vw;
   border-radius: 50%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .circles__text {
@@ -15,10 +19,7 @@
   font-weight: 900;
   color: #f3f3f3;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #f3f3f3;
-  position: absolute;
-  top: 11%;
-  left: 9%;
   font-size: 3vw;
   text-align: center;
-  width: 12vw;
+  width: 13vw;
 }
