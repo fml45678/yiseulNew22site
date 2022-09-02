@@ -18,3 +18,15 @@ iframe {
   width: 50vw;
   height: 28vw;
 }
+
+@media screen and (min-width: 768px) {
+  iframe {
+    width: 25vw;
+    height: 14vw;
+  }
+
+  .video__legend {
+    height: 3vw;
+    width: 3vw;
+  }
+}

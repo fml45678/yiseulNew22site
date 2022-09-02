@@ -21,6 +21,7 @@ const VideoModal = ({ description }) => {
           }}
           className="videoDescriptionModal"
         >
+          <span className="videoModal__close">X</span>
           <p>{description}</p>
           <p>
             Hundred percent organic Made, Squeezed, packaged By <br /> Yiseul

@@ -28,3 +28,15 @@
   text-decoration-color: #7c7676;
   cursor: pointer;
 }
+.videoModal__close {
+  margin-right: 80%;
+  margin-top: 2%;
+  font-size: 5vw;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .videoDescriptionModal {
+    position: absolute;
+    margin-top: 14vw;
+  }
+}
