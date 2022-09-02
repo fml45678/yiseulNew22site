@@ -9,8 +9,33 @@
 }
 
 .header > a > span {
-  margin-left: 10vw;
+  margin-left: 7vw;
   font-weight: 500;
   font-size: 4.3vw;
   cursor: pointer;
+}
+.header__largeScreens {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__largeScreens {
+    display: flex;
+    column-gap: 3vw;
+    margin-right: 7vw;
+    margin-top: 2.25vw;
+  }
+  .header__largeScreens > a {
+    color: #100f0f;
+    text-decoration: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vw;
+    margin-top: 2.25vw;
+  }
+  .header > a > span {
+    font-size: 2vw;
+    font-weight: 700;
+  }
 }
