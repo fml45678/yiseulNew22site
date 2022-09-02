@@ -25,7 +25,7 @@ function Bpage() {
           />
         ))}
       </div>
-      <div>
+      <div className="bPageGallery__container">
         {gallery.map((gallery, key) => (
           <Gallery
             key={key}
