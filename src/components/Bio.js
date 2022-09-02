@@ -24,6 +24,7 @@ const Bio = () => {
           className="cvContainer__container"
         >
           <div className="bio__container">
+            <span className="bio__xButton">X</span>
             <p className="bio__text">
               Yiseul LeMieux is a Korean-born artist living in New York City.
               Her work transcends disciplinary boundaries, often bringing

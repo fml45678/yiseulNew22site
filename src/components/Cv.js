@@ -23,6 +23,7 @@ const Cv = () => {
           }}
           className="cvContainer__container"
         >
+          <span className="cv__xButton">X</span>
           <div className="cv__container">
             <img src="/cv/cv1.png" alt="cv page 1" />
             <img src="/cv/cv1.png" alt="cv page 2" />

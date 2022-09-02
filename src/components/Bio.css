@@ -1,7 +1,15 @@
 .bio__text {
   width: 75vw;
   line-height: 2.2;
+  text-align: center;
 }
 .bio__container {
   margin-top: 10vw;
+}
+.bio__xButton {
+  font-size: 6.5vw;
+  font-family: "C90Degree";
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 50%;
 }

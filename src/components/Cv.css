@@ -9,3 +9,10 @@
 .cv__container {
   margin-top: 5vw;
 }
+.cv__xButton {
+  font-size: 6.5vw;
+  font-family: "C90Degree";
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10vw;
+}
