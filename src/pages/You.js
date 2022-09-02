@@ -71,8 +71,8 @@ function You() {
       </div>
       <div className="you__feedbackCircle">
         <p className="you__question">
-          What would you like to Experience Made, squeezed, stirred, and
-          packaged by Yiseul LeMieux?
+          What would you like to <br /> Experience Made, squeezed, <br />{" "}
+          stirred, and packaged by <br /> Yiseul LeMieux?
         </p>
         <form id="FORM" ref={form}>
           <textarea
@@ -98,20 +98,23 @@ function You() {
         </span>
       </div>
 
-      <div className="you__socialLinks">
-        <span className="you_socialLinkText">Instagram</span>
-      </div>
-      <div id="link2" className="you__socialLinks">
-        <span className="you_socialLinkText">Strawberry University</span>
-      </div>
-      <div id="link3" className="you__socialLinks">
-        <span className="you_socialLinkText">Creature Stickers</span>
+      <div className="you__socialLinksContainer">
+        <div className="you__socialLinks">
+          <span className="you_socialLinkText">Instagram</span>
+        </div>
+        <div id="link2" className="you__socialLinks">
+          <span className="you_socialLinkText">Strawberry University</span>
+        </div>
+        <div id="link3" className="you__socialLinks">
+          <span className="you_socialLinkText">Creature Stickers</span>
+        </div>
       </div>
 
       <div id="youCirlceTwo" className="you__feedbackCircle">
         <p className="you__question">
-          If you would like to know about the Next adventure <br /> By Yiseul
-          LeMieux?
+          If you would like <br /> to know about the <br /> Next adventure{" "}
+          <br /> By Yiseul
+          <br /> LeMieux?
         </p>
         <form
         // id="FORM" ref={form}
