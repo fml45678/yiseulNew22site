@@ -40,6 +40,7 @@ function Cpage() {
             display1={component.display1}
             display2={component.display2}
             display3={component.display3}
+            link={component.link}
           />
         ))}
       </div>

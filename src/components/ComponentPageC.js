@@ -1,5 +1,6 @@
 import React from "react";
 import "./ComponentPageC.css";
+// import { Link } from "react-router-dom";
 
 export default class ComponentPageC extends React.Component {
   constructor(props) {
@@ -15,6 +16,7 @@ export default class ComponentPageC extends React.Component {
       display1: props.display1,
       display2: props.display2,
       display3: props.display3,
+      link: props.link,
     };
   }
 
@@ -57,7 +59,9 @@ export default class ComponentPageC extends React.Component {
               ></div>
             </div>
             <div className="pageC__legendBottomContainer">
-              {this.state.legend4}
+              <a href={this.state.link} target="_blank" rel="noreferrer">
+                {this.state.legend4}
+              </a>
               {this.state.legend5}
             </div>
           </div>

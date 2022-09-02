@@ -10,6 +10,7 @@ const component = [
     legend2: "#F1B168",
     display3: "none",
     legend4: <HeadphonesIcon className="headphones" />,
+    link: "https://soundcloud.com/yiseul-lemieux/felt-trap?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
   },
   {
     textOne: "P3",
@@ -17,8 +18,9 @@ const component = [
     legend1: "#EFC2C2",
     legend2: "#34AAA1",
     display3: "none",
-    legend4: <VisibilityIcon className="eye" />,
-    legend5: <VideoLibraryIcon className="play" />,
+    legend4: <VideoLibraryIcon className="play" />,
+    legend5: <VisibilityIcon className="eye" />,
+    link: "https://youtu.be/qmvNL7D_MgY",
   },
   {
     textOne: "Where the Smell Come From",
@@ -27,6 +29,7 @@ const component = [
     legend2: "#34AAA1",
     display3: "none",
     legend4: <VideoLibraryIcon className="play" />,
+    videoLink: "",
   },
   {
     textOne: "V1",
@@ -61,8 +64,9 @@ const component = [
     legend1: "#EFC2C2",
     legend2: "#34AAA1",
     legend3: "#A8ADC0",
-    legend4: <VisibilityIcon className="eye" />,
-    legend5: <VideoLibraryIcon className="play" />,
+    legend4: <VideoLibraryIcon className="play" />,
+    legend5: <VisibilityIcon className="eye" />,
+    link: "https://youtu.be/xsRvYWzMffw",
   },
   {
     textOne: "P2",
