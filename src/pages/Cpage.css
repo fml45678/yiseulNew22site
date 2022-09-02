@@ -34,3 +34,9 @@
 .play {
   color: #16463b;
 }
+
+@media screen and (min-width: 768px) {
+  .cPage__circlesContainer {
+    gap: 6vw 8vw;
+  }
+}
