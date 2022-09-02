@@ -2,6 +2,8 @@
   width: 75vw;
   line-height: 2.2;
   text-align: center;
+  font-size: 2.5vw;
+  margin-left: 12vw;
 }
 .bio__container {
   margin-top: 10vw;
