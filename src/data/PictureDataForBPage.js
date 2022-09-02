@@ -211,6 +211,13 @@ const gallery = [
     display3: "none",
   },
   {
+    image: "/img/IMG_1896.png",
+    alt: "painting",
+    legend: "#DDC73E",
+    display2: "none",
+    display3: "none",
+  },
+  {
     image: "/img/IMG_1894.png",
     alt: "painting",
     legend: "#DDC73E",
