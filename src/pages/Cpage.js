@@ -16,6 +16,8 @@ const cPageLegendData = [
 function Cpage() {
   return (
     <div className="cPage__container">
+      <span className="pageTitle">PROJECT C</span>
+
       <div className="cPageLegend__container">
         {cPageLegendData.map((legend, key) => (
           <Legend

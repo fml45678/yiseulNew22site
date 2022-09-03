@@ -16,6 +16,7 @@ const aPageLegendData = [
 function Apage() {
   return (
     <div className="aPage__container">
+      <span className="pageTitle">PROJECT A</span>
       <div className="aPageLegend__container">
         {aPageLegendData.map((legend, key) => (
           <Legend

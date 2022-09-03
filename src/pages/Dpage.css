@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: column;
   row-gap: 15vw;
-
-  /* this is for the ipad version} */
-
-  /* .dpage__headerTitle {
-  margin-left: 50vw; */
 }
+
+.dPage__headerTitle {
+  margin-left: 42vw;
+}
+
 .dContainer {
   display: flex;
   justify-content: center;
@@ -208,4 +208,9 @@
   left: 8%;
   bottom: 15%;
   font-size: 3vw;
+}
+@media screen and (min-width: 825px) {
+  .dPage__container {
+    margin-top: 1.3vw;
+  }
 }

@@ -1,6 +1,10 @@
 .aPage__container {
   min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .aPageLegend__container {
   display: flex;
   justify-content: center;
@@ -11,6 +15,7 @@
   position: sticky;
   top: 0;
   background-color: white;
+  width: 100vw;
 }
 @media screen and (min-width: 768px) {
   .aPageVideo__container {
@@ -21,5 +26,6 @@
   }
   .aPageLegend__container {
     column-gap: 6.1vw;
+    margin-top: 1.3vw;
   }
 }

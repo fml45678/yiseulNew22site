@@ -122,3 +122,11 @@
     font-size: 2.5vw;
   }
 }
+@media screen and (min-width: 825px) {
+  .you__container {
+    margin-top: 1.3vw;
+  }
+  .you__promise {
+    margin-top: 2.5vw;
+  }
+}

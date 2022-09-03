@@ -66,6 +66,8 @@ function You() {
 
   return (
     <div className="you__container">
+      <span className="pageTitle">YOU</span>
+
       <div className="you__promise">
         Pinky Promise! <br /> Your information will be safe :)
       </div>

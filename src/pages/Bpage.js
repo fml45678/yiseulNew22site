@@ -15,6 +15,8 @@ const bPageLegendData = [
 function Bpage() {
   return (
     <div className="bPage__container">
+      <span className="pageTitle">PROJECT B</span>
+
       <div className="bPageLegend__container">
         {bPageLegendData.map((legend, key) => (
           <Legend

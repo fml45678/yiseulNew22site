@@ -13,8 +13,7 @@ function Dpage() {
 
   return (
     <div className="dPage__container">
-      {/* this is for the ipad version */}
-      {/* <span className="dpage__headerTitle">PROJECT D</span> */}
+      <span className="pageTitle dPage__headerTitle">PROJECT D</span>
 
       <div className="dContainer">
         <div

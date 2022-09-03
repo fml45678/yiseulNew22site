@@ -8,6 +8,8 @@ import Bio from "../components/Bio";
 function Iit() {
   return (
     <div className="iIt__container">
+      <span className="pageTitle">I, It</span>
+
       <button className="revealMe">Reveal me - Click circles</button>
       <div className="iIt__bioCv">
         <Bio />
