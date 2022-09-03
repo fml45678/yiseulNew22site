@@ -78,8 +78,9 @@
   bottom: 8.3vw;
   text-align: right;
   right: 24vw;
+  /* right: 32%; */
   color: #2b66a0;
-  width: 37vw;
+  width: 50vw;
 }
 .dPage__middleText2 {
   font-family: "C90Degree";
@@ -91,7 +92,7 @@
   text-align: right;
   right: 24vw;
   color: #2b66a0;
-  width: 37vw;
+  width: 50vw;
 }
 .dPage__middleTextBottom {
   font-family: "C90Degree";
@@ -212,5 +213,8 @@
 @media screen and (min-width: 825px) {
   .dPage__container {
     margin-top: 1.3vw;
+  }
+  #firstCircle {
+    margin-top: -8vw;
   }
 }

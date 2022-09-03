@@ -15,7 +15,7 @@ function Dpage() {
     <div className="dPage__container">
       <span className="pageTitle dPage__headerTitle">PROJECT D</span>
 
-      <div className="dContainer">
+      <div id="firstCircle" className="dContainer">
         <div
           onClick={() => {
             setShowComponent(true);
