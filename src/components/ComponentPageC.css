@@ -47,6 +47,11 @@
     height: 15vw;
   }
   .pageC__circleText {
-    font-size: 1.5vw;
+    font-size: 1vw;
+    width: 12vw;
+  }
+  .pageC__circleLegend {
+    height: 2vw;
+    width: 2vw;
   }
 }

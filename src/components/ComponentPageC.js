@@ -1,6 +1,5 @@
 import React from "react";
 import "./ComponentPageC.css";
-// import { Link } from "react-router-dom";
 
 export default class ComponentPageC extends React.Component {
   constructor(props) {
