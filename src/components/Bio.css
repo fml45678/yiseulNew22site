@@ -1,17 +1,32 @@
 .bio__text {
   width: 75vw;
-  line-height: 2.2;
-  text-align: center;
+  line-height: 2.7;
   font-size: 2.5vw;
-  margin-left: 12vw;
-}
-.bio__container {
-  margin-top: 10vw;
 }
 .bio__xButton {
   font-size: 6.5vw;
   font-family: "C90Degree";
   font-weight: 700;
   cursor: pointer;
-  margin-left: 50%;
+}
+.iIt__bioCv {
+  display: flex;
+  gap: 5vw;
+}
+.iIt__bio {
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+  background-color: #aecbc7;
+  position: relative;
+}
+.bio__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yiseulSponge {
+  width: 70vw;
+  margin-bottom: 7vw;
 }

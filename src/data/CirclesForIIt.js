@@ -14,7 +14,6 @@ const iItCircles = [
     top: "100.5vw",
     left: "15vw",
   },
-  //   I'm not sure why this is not showing up
   {
     color: "#D23021",
     text: "Don’t want to Fall asleep",

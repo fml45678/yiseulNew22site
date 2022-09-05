@@ -16,19 +16,9 @@
   font-size: 3vw;
   font-family: "C90Degree";
   font-weight: 700;
+  margin-bottom: 2.5vw;
 }
-.iIt__bioCv {
-  margin-top: 2.5vw;
-  display: flex;
-  gap: 5vw;
-}
-.iIt__bio {
-  height: 7vw;
-  width: 7vw;
-  border-radius: 50%;
-  background-color: #aecbc7;
-  position: relative;
-}
+
 .iIt__cv {
   height: 7vw;
   width: 7vw;

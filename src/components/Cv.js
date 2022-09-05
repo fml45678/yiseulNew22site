@@ -1,26 +1,16 @@
 import React from "react";
 import "./Cv.css";
-import { useState } from "react";
 
-const Cv = () => {
-  const [showComponent, setShowComponent] = useState(false);
-
+const Cv = ({ onClick, showComponent }) => {
   return (
     <div className="cvContainer__container">
-      <div
-        onClick={() => {
-          setShowComponent(true);
-        }}
-        className="iIt__cv"
-      >
+      <div onClick={() => onClick(!showComponent)} className="iIt__cv">
         <span className="iIt__circleText">CV</span>
       </div>
 
       {showComponent && (
         <div
-          onClick={() => {
-            setShowComponent(false);
-          }}
+          onClick={() => onClick(!showComponent)}
           className="cvContainer__container"
         >
           <span className="cv__xButton">X</span>
