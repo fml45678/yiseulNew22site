@@ -1,5 +1,4 @@
 import React from "react";
-import "./Cv.css";
 
 const Cv = ({ onClick, showComponent }) => {
   return (

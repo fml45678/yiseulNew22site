@@ -14,3 +14,9 @@
 .circle__lineOne {
   margin-top: 0.75vw;
 }
+@media screen and (min-width: 768px) {
+  .circleOne {
+    height: 5.7vw;
+    width: 5.7vw;
+  }
+}

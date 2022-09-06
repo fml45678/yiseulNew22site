@@ -17,6 +17,12 @@
   background-color: white;
   width: 100vw;
 }
+.bio__x {
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  cursor: pointer;
+  width: 80%;
+}
 @media screen and (min-width: 768px) {
   .aPageVideo__container {
     display: flex;
