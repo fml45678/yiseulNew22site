@@ -12,7 +12,7 @@
   min-height: 70vh;
   margin-top: 10vw;
   animation: fadeIn;
-  animation-duration: 1.2s;
+  animation-duration: 2.4s;
 }
 
 .circle {
@@ -51,4 +51,31 @@
   bottom: 40%;
   left: 32%;
   font-size: 3.8vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .home__container {
+    margin: 8vw;
+    margin-bottom: -5vw;
+  }
+  .circle {
+    height: 14vw;
+    width: 14vw;
+  }
+  .circleGroup {
+    gap: 9vw 10vw;
+    justify-content: center;
+  }
+  .circle__text {
+    font-size: 2vw;
+  }
+  .circle__textSingle {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .home__container {
+    margin-bottom: 1vw;
+  }
 }
