@@ -37,6 +37,14 @@
 @media screen and (min-width: 768px) {
   .videoDescriptionModal {
     position: absolute;
-    margin-top: 14vw;
+    margin-top: 18vw;
+    font-size: 2vw;
+    margin-left: 0vw;
+  }
+  .videoDescriptionModal > p {
+    width: 26vw;
+    padding: 2vw;
+    margin-bottom: unset;
+    margin-top: -1vw;
   }
 }
