@@ -175,12 +175,12 @@
     width: 1.25vw;
   }
   .you__feedbackCircle__textarea {
-    width: 22.5vw;
-    height: 9.5vw;
+    width: 20.5vw;
+    height: 8.5vw;
     border-radius: 1vw;
     border: 0.15vw solid #212941;
     margin-bottom: 0.5vw;
-    font-size: 32px;
+    font-size: 24px;
     padding-top: 1.5vw;
   }
   #youCirlceTwo {
@@ -200,7 +200,7 @@
     border-radius: 0.8vw;
     border: 0.125vw solid #212941;
     margin-bottom: 0.5vw;
-    font-size: 32px;
+    font-size: 24px;
   }
   .you__socialLinksContainer {
     display: flex;
