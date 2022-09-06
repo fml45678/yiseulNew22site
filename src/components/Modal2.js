@@ -28,7 +28,7 @@ const Modal2 = () => {
             className="modal1__container"
             id="modal2"
           >
-            <div className="modal1__textContainer">
+            <div id="modal2__textContainer" className="modal1__textContainer">
               <span>
                 IT’S BEEN 90 SECONDS. <br /> SCONE? OR ICE CREAM?
               </span>

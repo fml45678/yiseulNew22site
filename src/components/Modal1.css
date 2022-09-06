@@ -70,3 +70,44 @@
   width: 60vw;
   height: 60vw;
 }
+
+@media screen and (min-width: 1800px) {
+  .modal1__container {
+    width: 44vw;
+    height: 30vw;
+    font-size: 2.6vw;
+  }
+  .small {
+    font-size: 1.5vw;
+  }
+
+  .modal3 > svg {
+    width: 45vw;
+    height: 45vw;
+  }
+  .modal4__svg > svg {
+    width: 36vw;
+    height: 36vw;
+  }
+  #modal2 {
+    border: 1.4vw solid #d7bf4c;
+    border-radius: 40vw;
+    height: 22vw;
+  }
+  #modal2__textContainer {
+    margin-top: -5vw;
+  }
+  .modal2__choices {
+    margin-top: 1vw;
+    gap: 17vw;
+  }
+  .modal2__circles {
+    height: 3vw;
+    width: 3vw;
+  }
+  .modal2__circles > span {
+    position: relative;
+    top: 4vw;
+    right: 2vw;
+  }
+}
