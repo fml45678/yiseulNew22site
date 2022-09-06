@@ -102,6 +102,9 @@
   align-items: center;
   justify-content: center;
 }
+.you__socialLinksContainer > a {
+  text-decoration: none;
+}
 #link2 {
   background-color: #f1b168;
 }

@@ -101,15 +101,22 @@ function You() {
       </div>
 
       <div className="you__socialLinksContainer">
-        <div className="you__socialLinks">
-          <span className="you_socialLinkText">Instagram</span>
-        </div>
+        <a href="https://www.instagram.com/yiswork/" target={"blank"}>
+          <div className="you__socialLinks">
+            <span className="you_socialLinkText">Instagram</span>
+          </div>
+        </a>
         <div id="link2" className="you__socialLinks">
           <span className="you_socialLinkText">Strawberry University</span>
         </div>
-        <div id="link3" className="you__socialLinks">
-          <span className="you_socialLinkText">Creature Stickers</span>
-        </div>
+        <a
+          href="https://www.etsy.com/shop/peppersbandana/?etsrc=sdt"
+          target={"blank"}
+        >
+          <div id="link3" className="you__socialLinks">
+            <span className="you_socialLinkText">Creature Stickers</span>
+          </div>
+        </a>
       </div>
 
       <div id="youCirlceTwo" className="you__feedbackCircle">
