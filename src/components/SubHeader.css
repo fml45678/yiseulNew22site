@@ -8,11 +8,9 @@
   color: #100f0f;
   text-decoration: none;
   font-size: 3.3vw;
+  padding: 0.8vw;
 }
 @media screen and (min-width: 768px) {
-  .subHeader__container {
-    /* display: none; */
-  }
   .subHeader__container > a {
     display: none;
   }
