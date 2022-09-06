@@ -31,7 +31,32 @@
 .bio__container > svg {
   width: 5vw;
 }
-.cv__container > img {
+.bio__text {
+  width: 75vw;
+  line-height: 1.7;
+  font-size: 2.2vw;
+}
+
+.iIt__bio {
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+  background-color: #aecbc7;
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
+}
+.bio__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yiseulSponge {
+  width: 70vw;
+  margin-bottom: 7vw;
+}
+.cv__imageContainer > img {
   width: 70vw;
 }
 
@@ -67,10 +92,9 @@
   }
   .revealMe {
     margin-top: 2.5vw;
-  }
-  .revealMe {
     border-radius: 3vw;
   }
+
   .iIt__topContent {
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,5 +109,63 @@
     margin-left: 6vw;
     gap: 0.5vw;
     z-index: 5;
+  }
+  .cv__imageContainer {
+    margin-left: 10vw;
+  }
+  .cv__imageContainer > img {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .iIt__container {
+    min-height: 115vw;
+  }
+  .revealMe {
+    border-radius: 1.4vw;
+    height: 4.4vw;
+    width: 19vw;
+    font-size: 1.5vw;
+    margin-left: 35vw;
+  }
+  .iIt__bioCv {
+    margin-left: 20vw;
+    gap: 0.5vw;
+  }
+  .iIt__bio {
+    height: 5vw;
+    width: 5vw;
+  }
+  .iIt__cv {
+    height: 5vw;
+    width: 5vw;
+  }
+  .iIt__circleText {
+    font-size: 1.4vw;
+  }
+  .bio__container {
+    flex-direction: row;
+    column-gap: 5vw;
+    margin-top: 20vw;
+    margin-left: -20vw;
+    margin-bottom: -60vw;
+  }
+  .yiseulSponge {
+    width: 28vw;
+    margin-bottom: unset;
+  }
+  .bio__text {
+    width: 48vw;
+    line-height: 1.7;
+    font-size: 0.9vw;
+  }
+  .cv__imageContainer {
+    width: 100vw;
+    display: flex;
+    column-gap: 1.4vw;
+    margin-left: -4vw;
+  }
+  .cv__imageContainer > img {
+    width: 25vw;
   }
 }

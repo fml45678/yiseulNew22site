@@ -1,5 +1,4 @@
 import React from "react";
-import "./Bio.css";
 
 const Bio = ({ onClick, showComponent }) => {
   return (

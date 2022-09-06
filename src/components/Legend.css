@@ -20,7 +20,7 @@
     width: 5.7vw;
   }
 }
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1200px) {
   .circleOne {
     height: 4.5vw;
     width: 4.5vw;

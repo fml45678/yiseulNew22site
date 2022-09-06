@@ -8,10 +8,7 @@ const Cv = ({ onClick, showComponent }) => {
       </div>
 
       {showComponent && (
-        <div
-          onClick={() => onClick(!showComponent)}
-          className="cvContainer__container"
-        >
+        <div onClick={() => onClick(!showComponent)} className="cv__container">
           <svg
             className="bio__x"
             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +58,7 @@ const Cv = ({ onClick, showComponent }) => {
               </g>
             </g>
           </svg>
-          <div className="cv__container">
+          <div className="cv__imageContainer">
             <img src="/cv/cv1.png" alt="cv page 1" />
             <img src="/cv/cv1.png" alt="cv page 2" />
             <img src="/cv/cv1.png" alt="cv page 3" />
