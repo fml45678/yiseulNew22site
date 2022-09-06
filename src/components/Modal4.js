@@ -49,10 +49,10 @@ const Modal4 = () => {
                 transform="translate(142 248)"
                 fill="#16463b"
                 stroke="#16463b"
-                stroke-width="1"
-                font-size="9"
-                font-family="C90Degree, C90 Degree"
-                letter-spacing="0.1em"
+                strokeWidth="1"
+                fontSize="9"
+                fontFamily="C90Degree, C90 Degree"
+                letterSpacing="0.1em"
               >
                 <tspan x="-48" y="0">
                   Yes, you will be getting
@@ -80,10 +80,10 @@ const Modal4 = () => {
                 transform="translate(143 58)"
                 fill="#16463b"
                 stroke="#16463b"
-                stroke-width="1"
-                font-size="16"
-                font-family="C90Degree, C90 Degree"
-                letter-spacing="0.08em"
+                strokeWidth="1"
+                fontSize="16"
+                fontFamily="C90Degree, C90 Degree"
+                letterSpacing="0.08em"
               >
                 <tspan x="-87" y="0">
                   The most regretful thing

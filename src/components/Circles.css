@@ -23,7 +23,7 @@
   text-align: center;
   width: 13vw;
 }
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 768px) {
   .circles__container {
     height: 51.2vw;
     z-index: 1;

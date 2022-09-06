@@ -23,9 +23,6 @@
     width: 22vw;
     /* align-items: unset; */
   }
-  .gallery__container > * {
-    /* flex: 1 0 25%; */
-  }
 
   .gallery__container > img {
     width: unset;

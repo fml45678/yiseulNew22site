@@ -125,7 +125,7 @@
     font-size: 2.5vw;
   }
 }
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 768px) {
   .you__container {
     margin-top: 1.3vw;
   }

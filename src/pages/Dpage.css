@@ -210,7 +210,7 @@
   bottom: 15%;
   font-size: 3vw;
 }
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 768px) {
   .dPage__container {
     margin-top: 1.3vw;
   }

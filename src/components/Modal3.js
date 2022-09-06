@@ -67,7 +67,7 @@ const Modal3 = () => {
                     y2="14"
                     fill="none"
                     stroke="#faf2f2"
-                    stroke-width="3"
+                    strokeWidth="3"
                   />
                   <line
                     id="Line_8"
@@ -76,7 +76,7 @@ const Modal3 = () => {
                     y2="14"
                     fill="none"
                     stroke="#faf2f2"
-                    stroke-width="3"
+                    strokeWidth="3"
                   />
                 </g>
               </g>
@@ -90,10 +90,10 @@ const Modal3 = () => {
                 transform="translate(146.495 78.997)"
                 fill="#10325b"
                 stroke="#132c4e"
-                stroke-width="1"
-                font-size="17"
-                font-family="C90Degree, C90 Degree"
-                letter-spacing="0.075em"
+                strokeWidth="1"
+                fontSize="17"
+                fontFamily="C90Degree, C90 Degree"
+                letterSpacing="0.075em"
               >
                 <tspan x="-17" y="0">
                   I am{" "}
@@ -117,15 +117,15 @@ const Modal3 = () => {
                 transform="translate(150 197.593)"
                 fill="#de1717"
                 stroke="#de1717"
-                stroke-width="1"
-                font-size="13"
-                font-family="Helvetica"
-                letter-spacing="0.075em"
+                strokeWidth="1"
+                fontSize="13"
+                fontFamily="Helvetica"
+                letterSpacing="0.075em"
               >
                 <tspan x="-105" y="0">
                   **
                 </tspan>
-                <tspan y="0" font-family="C90Degree, C90 Degree">
+                <tspan y="0" fontFamily="C90Degree, C90 Degree">
                   Just in case you’re getting bored
                 </tspan>
                 <tspan y="0">**</tspan>
