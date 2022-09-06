@@ -71,80 +71,81 @@ function You() {
       <div className="you__promise">
         Pinky Promise! <br /> Your information will be safe :)
       </div>
-      <div className="you__feedbackCircle">
-        <p className="you__question">
-          What would you like to <br /> Experience Made, squeezed, <br />{" "}
-          stirred, and packaged by <br /> Yiseul LeMieux?
-        </p>
-        <form id="FORM" ref={form}>
-          <textarea
-            type="text"
-            name="text_box"
-            onChange={handleFeedbackChange}
-            id="youFeedback"
-            value={feedback}
-            className="you__feedbackCircle__textarea"
-          ></textarea>
-        </form>
-        <div
-          onClick={submitFeedback}
-          className="feedbackCircle__submitButton"
-          value="send"
-        ></div>
-        <span
-          value="send"
-          onClick={submitFeedback}
-          className="you__feedbackCircleText"
-        >
-          Submit
-        </span>
-      </div>
 
-      <div className="you__socialLinksContainer">
-        <a href="https://www.instagram.com/yiswork/" target={"blank"}>
-          <div className="you__socialLinks">
-            <span className="you_socialLinkText">Instagram</span>
-          </div>
-        </a>
-        <div id="link2" className="you__socialLinks">
-          <span className="you_socialLinkText">Strawberry University</span>
+      <div id="you__largeScreenContainer" className="you__container">
+        <div className="you__feedbackCircle">
+          <p className="you__question">
+            What would you like to <br /> Experience Made, squeezed, <br />{" "}
+            stirred, and packaged by <br /> Yiseul LeMieux?
+          </p>
+          <form id="FORM" ref={form}>
+            <textarea
+              type="text"
+              name="text_box"
+              onChange={handleFeedbackChange}
+              id="youFeedback"
+              value={feedback}
+              className="you__feedbackCircle__textarea"
+            ></textarea>
+          </form>
+          <div
+            onClick={submitFeedback}
+            className="feedbackCircle__submitButton"
+            value="send"
+          ></div>
+          <span
+            value="send"
+            onClick={submitFeedback}
+            className="you__feedbackCircleText"
+          >
+            Submit
+          </span>
         </div>
-        <a
-          href="https://www.etsy.com/shop/peppersbandana/?etsrc=sdt"
-          target={"blank"}
-        >
-          <div id="link3" className="you__socialLinks">
-            <span className="you_socialLinkText">Creature Stickers</span>
+        <div className="you__socialLinksContainer">
+          <a href="https://www.instagram.com/yiswork/" target={"blank"}>
+            <div className="you__socialLinks">
+              <span className="you_socialLinkText">Instagram</span>
+            </div>
+          </a>
+          <div id="link2" className="you__socialLinks">
+            <span className="you_socialLinkText">Strawberry University</span>
           </div>
-        </a>
-      </div>
-
-      <div id="youCirlceTwo" className="you__feedbackCircle">
-        <p className="you__question">
-          If you would like <br /> to know about the <br /> Next adventure{" "}
-          <br /> By Yiseul
-          <br /> LeMieux?
-        </p>
-        <form
-        // id="FORM" ref={form}
-        >
-          <input
-            placeholder="email"
-            onChange={handleEmailChange}
-            name="user_name"
-            value={email}
-            type="email"
-            id="youFeedback"
-            className="you__feedbackCircle__input"
-          ></input>
-        </form>
-        <div
-          onClick={submitEmail}
-          className="feedbackCircle__submitButton"
-        ></div>
-        <span onClick={submitEmail} className="you__feedbackCircleText">
-          Submit
-        </span>
+          <a
+            href="https://www.etsy.com/shop/peppersbandana/?etsrc=sdt"
+            target={"blank"}
+          >
+            <div id="link3" className="you__socialLinks">
+              <span className="you_socialLinkText">Creature Stickers</span>
+            </div>
+          </a>
+        </div>
+        <div id="youCirlceTwo" className="you__feedbackCircle">
+          <p className="you__question">
+            If you would like <br /> to know about the <br /> Next adventure{" "}
+            <br /> By Yiseul
+            <br /> LeMieux?
+          </p>
+          <form
+          // id="FORM" ref={form}
+          >
+            <input
+              placeholder="email"
+              onChange={handleEmailChange}
+              name="user_name"
+              value={email}
+              type="email"
+              id="youFeedback"
+              className="you__feedbackCircle__input"
+            ></input>
+          </form>
+          <div
+            onClick={submitEmail}
+            className="feedbackCircle__submitButton"
+          ></div>
+          <span onClick={submitEmail} className="you__feedbackCircleText">
+            Submit
+          </span>
+        </div>
       </div>
     </div>
   );
