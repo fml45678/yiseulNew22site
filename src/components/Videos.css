@@ -30,3 +30,9 @@ iframe {
     width: 2vw;
   }
 }
+@media screen and (min-width: 1800px) {
+  iframe {
+    width: 18vw;
+    height: 10vw;
+  }
+}
