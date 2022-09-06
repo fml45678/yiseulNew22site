@@ -23,3 +23,19 @@
   text-align: center;
   width: 13vw;
 }
+@media screen and (min-width: 825px) {
+  .circles__container {
+    height: 51.2vw;
+    z-index: 1;
+  }
+  .circles__circles {
+    width: 8vw;
+    height: 8vw;
+    z-index: 3;
+  }
+  .circles__text {
+    font-size: 1.4vw;
+    width: 6vw;
+    line-height: 1.1vw;
+  }
+}

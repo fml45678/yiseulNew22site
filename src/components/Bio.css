@@ -9,16 +9,15 @@
   font-weight: 700;
   cursor: pointer;
 }
-.iIt__bioCv {
-  display: flex;
-  gap: 5vw;
-}
+
 .iIt__bio {
   height: 7vw;
   width: 7vw;
   border-radius: 50%;
   background-color: #aecbc7;
   position: relative;
+  cursor: pointer;
+  z-index: 5;
 }
 .bio__container {
   display: flex;

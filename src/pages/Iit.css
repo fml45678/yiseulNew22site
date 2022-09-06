@@ -18,6 +18,10 @@
   font-weight: 700;
   margin-bottom: 2.5vw;
 }
+.iIt__bioCv {
+  display: flex;
+  gap: 5vw;
+}
 
 .iIt__cv {
   height: 7vw;
@@ -25,6 +29,7 @@
   border-radius: 50%;
   background-color: #ddc73e;
   position: relative;
+  cursor: pointer;
 }
 .iIt__circleText {
   font-family: "C90Degree";
@@ -36,11 +41,37 @@
   left: 30%;
   font-size: 2vw;
 }
+.iIt__topContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media screen and (min-width: 825px) {
   .iIt__container {
     margin-top: 1.3vw;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 250vw; */
   }
   .revealMe {
     margin-top: 2.5vw;
+  }
+  .revealMe {
+    border-radius: 3vw;
+  }
+  .iIt__topContent {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  #iItPageTitle {
+    width: 100vw;
+    text-align: center;
+  }
+  .iIt__bioCv {
+    margin-left: 6vw;
+    gap: 0.5vw;
+    z-index: 5;
   }
 }

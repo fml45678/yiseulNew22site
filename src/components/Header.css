@@ -2,6 +2,7 @@
   font-family: arial;
   margin-top: 4.25vw;
   margin-bottom: 3vw;
+  z-index: 5;
 }
 
 .header > a {
@@ -23,6 +24,7 @@
     column-gap: 3vw;
     margin-right: 7vw;
     margin-top: 2.25vw;
+    z-index: 5;
   }
   .header__largeScreens > a {
     color: #100f0f;
