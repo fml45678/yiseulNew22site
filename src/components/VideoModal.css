@@ -21,6 +21,9 @@
   margin-bottom: unset;
   margin-top: unset;
 }
+.videoDescriptionModal > svg {
+  width: 5vw;
+}
 
 .description__text {
   color: #7c7676;
