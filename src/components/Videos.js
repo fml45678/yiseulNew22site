@@ -26,7 +26,8 @@ export default class Videos extends React.Component {
         <div className="video__container">
           <iframe
             src={this.state.url}
-            title="YouTube video player"
+            loading="lazy"
+            title={this.state.title}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -65,8 +66,6 @@ export default class Videos extends React.Component {
           <span className="video__title">Title: {this.state.title}</span>
           <span className="video__title">Year: {this.state.year}</span>
           <VideoModal description={this.state.description} />
-          {/* <span className="video__description">Description</span> */}
-          {/* <p className="video__description">{this.state.description}</p> */}
         </div>
       </div>
     );
