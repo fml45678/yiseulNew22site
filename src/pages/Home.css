@@ -6,11 +6,14 @@
     opacity: 1;
   }
 }
+a {
+  text-decoration: none;
+}
 
 .home__container {
-  /* figure out how to apply min-height to every page */
-  min-height: 80vh;
+  /* min-height: 70vh; */
   margin-top: 10vw;
+  margin-bottom: 18.718vw;
   animation: fadeIn;
   animation-duration: 2.4s;
 }
@@ -20,14 +23,15 @@
   height: 26.4vw;
   width: 26.4vw;
   border-radius: 50%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circleGroup {
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: space-around; */
-  gap: 27vw 17vw;
+  gap: 38.2vw 12.1vw;
   justify-content: center;
 }
 
@@ -36,46 +40,69 @@
   font-weight: 900;
   color: #16463b;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
-  position: absolute;
-  bottom: 34%;
-  left: 26%;
-  font-size: 3.8vw;
+  font-size: 4.36vw;
+  letter-spacing: 0.095vw;
 }
-.circle__textSingle {
-  font-family: "C90Degree";
-  font-weight: 900;
-  color: #16463b;
-  /* this text-shadow, like above, is a temporary solution */
-  text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
-  position: absolute;
-  bottom: 40%;
-  left: 32%;
-  font-size: 3.8vw;
+@media screen and (min-width: 768px) {
+  .home__container {
+    margin-top: 6.51vw;
+    margin-bottom: 11.328vw;
+  }
+  .circleGroup {
+    gap: 12.24vw 16.667vw;
+  }
+
+  .circle {
+    width: 23.47vw;
+    height: 23.47vw;
+  }
+  .circle__text {
+    font-size: 3.906vw;
+    letter-spacing: 0.086vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home__container {
+    margin-top: 8.984vw;
+    margin-bottom: 8.767vw;
+  }
+  .circleGroup {
+    gap: 15.527vw 23.926vw;
+  }
+
+  .circle {
+    width: 21.484vw;
+    height: 21.484vw;
+  }
+  .circle__text {
+    font-size: 2.93vw;
+    letter-spacing: 0.064vw;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .home__container {
-    margin: 8vw;
-    margin-bottom: -5vw;
-  }
-  .circle {
-    height: 14vw;
-    width: 14vw;
+    margin-top: 6.25vw;
+    margin-left: 24.688vw;
+    margin-right: 24.688vw;
+    margin-bottom: 3.594vw;
   }
   .circleGroup {
-    gap: 9vw 10vw;
+    gap: 9.219vw 5.729vw;
     justify-content: center;
   }
-  .circle__text {
-    font-size: 2vw;
+  .circle {
+    height: 13.02vw;
+    width: 13.02vw;
   }
-  .circle__textSingle {
-    font-size: 2vw;
+  .circle__text {
+    font-size: 1.562vw;
+    letter-spacing: 0.0344vw;
   }
 }
 
-@media screen and (min-width: 1800px) {
+/* @media screen and (min-width: 1800px) {
   .home__container {
     margin-bottom: 1vw;
   }
-}
+} */

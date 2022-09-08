@@ -5,24 +5,27 @@
 }
 
 .footer__text {
-  margin-bottom: 30px;
-  margin-top: 5vw;
-  font-size: 2.7vw;
+  margin-bottom: 4vw;
+  /* margin-top: 5vw; */
+  font-size: 2.564vw;
+  letter-spacing: 0.056vw;
 }
 @media screen and (min-width: 768px) {
   .footer {
     justify-content: flex-end;
-    margin-bottom: 4vw;
+    /* margin-bottom: 4vw; */
   }
   .footer__text {
-    font-size: 1.7vw;
-    margin-right: 10vw;
+    font-size: 1.302vw;
+    margin-right: 10.417vw;
+    margin-top: unset;
+    letter-spacing: 0.029vw;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer__text {
-    font-size: 1vw;
-    margin-right: 10vw;
+    font-size: 0.521vw;
+    margin-right: 15.677vw;
   }
 }

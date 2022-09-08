@@ -10,22 +10,30 @@
 }
 
 .header > a > span {
-  margin-left: 7vw;
-  font-weight: 500;
-  font-size: 4.3vw;
+  margin-left: 12.307vw;
+  font-weight: 550;
+  letter-spacing: 0.3px;
+  font-size: 3.85vw;
   cursor: pointer;
 }
 .header__largeScreens {
   display: none;
 }
+.pageTitle {
+  font-size: 1.953vw;
+  letter-spacing: 0.049vw;
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
 @media screen and (min-width: 768px) {
   .header__largeScreens {
     display: flex;
-    column-gap: 2.6vw;
-    margin-right: 7vw;
-    margin-top: 2.25vw;
+    column-gap: 3.506vw;
+    margin-right: 10.417vw;
+    margin-top: 1.753vw;
     z-index: 5;
-    font-size: 2vw;
+    font-size: 1.953vw;
   }
   .header__largeScreens > a {
     color: #100f0f;
@@ -35,28 +43,63 @@
   .header {
     display: flex;
     justify-content: space-between;
-    font-size: 2vw;
-    margin-top: 2.25vw;
-    margin-bottom: 1vw;
+    /* margin-top: 4.948vw; */
+    /* this above margin top is only for the home screen the above is for the rest of the pages */
+    margin-top: 1.042vw;
+    margin-bottom: unset;
   }
   .header > a > span {
-    font-size: 3vw;
+    font-size: 3.65vw;
     font-weight: 700;
+    letter-spacing: 0.073vw;
+    margin-left: 10.417vw;
+  }
+  .pageTitle {
+    display: inline;
+    margin-top: 1.432vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    /* margin-top: 4.199vw; */
+    /* this above margin top is only for the home screen the above is for the rest of the pages */
+    margin-top: 1.074vw;
+  }
+  .header > a > span {
+    font-size: 2.734vw;
+    letter-spacing: 0.0547vw;
+    margin-left: 7.813vw;
+  }
+  .header__largeScreens {
+    margin-right: 5.95vw;
+    margin-top: 2.046vw;
+    column-gap: 3.506vw;
+    font-size: 1.465vw;
+  }
+  .pageTitle {
+    margin-top: 1.758vw;
+    font-size: 1.465vw;
   }
 }
 @media screen and (min-width: 1200px) {
   .header {
     margin-top: 1.25vw;
+    /* this above margin top is only for the home screen the above is for the rest of the pages */
+    margin-top: 1.458vw;
   }
   .header > a > span {
-    font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.458vw;
+    letter-spacing: 0.029vw;
+    margin-left: 15.625vw;
   }
   .header__largeScreens {
-    display: flex;
-    column-gap: 2.2vw;
-    margin-right: 7vw;
-    margin-top: 2.25vw;
-    font-size: 1.5vw;
+    column-gap: 1.683vw;
+    margin-right: 6.05vw;
+    margin-top: 1.571vw;
+    font-size: 1.042vw;
+  }
+  .pageTitle {
+    margin-top: 1.771vw;
+    font-size: 1.042vw;
   }
 }

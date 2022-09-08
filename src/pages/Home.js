@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-// I think I should make a component to render this
-
 function Home() {
   return (
     <div className="home__container">
@@ -39,12 +37,12 @@ function Home() {
 
         <Link to="/page/you">
           <div className="circle">
-            <div className="circle__textSingle">YOU</div>
+            <div className="circle__text">YOU</div>
           </div>
         </Link>
         <Link to="/page/iit">
           <div className="circle">
-            <div className="circle__textSingle">I, It</div>
+            <div className="circle__text">I, It</div>
           </div>
         </Link>
       </div>
