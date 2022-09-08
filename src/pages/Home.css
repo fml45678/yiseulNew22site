@@ -9,7 +9,7 @@
 
 .home__container {
   /* figure out how to apply min-height to every page */
-  min-height: 70vh;
+  min-height: 80vh;
   margin-top: 10vw;
   animation: fadeIn;
   animation-duration: 2.4s;
@@ -17,8 +17,8 @@
 
 .circle {
   background-color: #b9b2b24d;
-  height: 26vw;
-  width: 26vw;
+  height: 26.4vw;
+  width: 26.4vw;
   border-radius: 50%;
   position: relative;
 }
