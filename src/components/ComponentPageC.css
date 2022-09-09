@@ -1,6 +1,6 @@
 .pageC__circle {
-  height: 26vw;
-  width: 26vw;
+  height: 26.154vw;
+  width: 26.154vw;
   background-color: #d0cdcd;
   border-radius: 50%;
   position: relative;
@@ -14,7 +14,7 @@
   color: #16463b;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 2.3vw;
+  font-size: 1.538vw;
   width: 14vw;
   position: absolute;
   display: flex;
@@ -27,31 +27,70 @@
 }
 
 .pageC__circleLegend {
-  height: 3vw;
-  width: 3vw;
+  height: 2.051vw;
+  width: 2.051vw;
   border-radius: 50%;
 }
 .pageC__legendContainer {
   display: flex;
-  gap: 2.5vw;
-  margin-top: 2vw;
+  gap: 1.795vw;
+  margin-top: 3.077vw;
 }
 .pageC__legendBottomContainer {
   display: flex;
-  gap: 2.5vw;
-  margin-top: 2vw;
+  gap: 0vw;
+  margin-top: 3.077vw;
+}
+.pageC__legendBottomContainer > a,
+svg {
+  transform: scale(0.8);
 }
 @media screen and (min-width: 768px) {
   .pageC__circle {
-    width: 15vw;
-    height: 15vw;
+    width: 10.547vw;
+    height: 10.547vw;
   }
   .pageC__circleText {
-    font-size: 1vw;
-    width: 12vw;
+    font-size: 0.781vw;
+    width: 8.073vw;
+    gap: 0.4vw;
   }
   .pageC__circleLegend {
-    height: 2vw;
-    width: 2vw;
+    height: 0.781vw;
+    width: 0.781vw;
+  }
+  .pageC__legendContainer {
+    margin-top: 1.042vw;
+    gap: 0.911vw;
+  }
+  .pageC__legendBottomContainer {
+    margin-top: 1.042vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pageC__circle {
+    width: 13.021vw;
+    height: 13.021vw;
+  }
+  .pageC__circleText {
+    font-size: 0.833vw;
+    width: 8.073vw;
+    gap: 0.4vw;
+  }
+  .pageC__circleLegend {
+    height: 1.042vw;
+    width: 1.042vw;
+  }
+  .pageC__legendContainer {
+    margin-top: 1.354vw;
+    gap: 1.042vw;
+  }
+  .pageC__legendBottomContainer {
+    margin-top: 1.354vw;
+    gap: 1.042vw;
+  }
+  .pageC__legendBottomContainer > a,
+  svg {
+    transform: unset;
   }
 }

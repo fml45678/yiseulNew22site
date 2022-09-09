@@ -22,7 +22,7 @@ export default class ComponentPageC extends React.Component {
   render() {
     return (
       <div>
-        <div className="legendContainer">
+        <div className="circleContainer">
           <div className="circle__legend">
             <div className="pageC__circle">
               <div className="pageC__circleText">

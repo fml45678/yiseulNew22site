@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15vw;
 }
 .cPageLegend__container {
   display: flex;
   justify-content: center;
-  gap: 0vw 4.1vw;
+  column-gap: 6.41vw;
   margin-top: 5vw;
   padding-top: 1vw;
   padding-bottom: 2vw;
@@ -20,7 +21,7 @@
 .cPage__circlesContainer {
   display: flex;
   justify-content: center;
-  gap: 6vw 12vw;
+  gap: 5.31vw 15.559vw;
   margin-top: 8vw;
   margin-bottom: 8vw;
   flex-wrap: wrap;
@@ -41,10 +42,28 @@
 
 @media screen and (min-width: 768px) {
   .cPage__circlesContainer {
-    gap: 6vw 8vw;
+    gap: 6vw 12.547vw;
   }
   .cPageLegend__container {
-    column-gap: 6vw;
+    column-gap: 5.208vw;
     margin-top: 1.3vw;
+    margin-bottom: -2.734vw;
+  }
+  .cPage__container {
+    margin-bottom: 6.409vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cPage__circlesContainer {
+    gap: 6vw 8.802vw;
+  }
+  .cPageLegend__container {
+    column-gap: 7.448vw;
+    margin-top: 4.583vw;
+    margin-bottom: -2.734vw;
+  }
+  .cPage__container {
+    margin-bottom: 3.409vw;
   }
 }
