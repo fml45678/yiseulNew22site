@@ -3,19 +3,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20.667vw;
 }
 
 .aPageLegend__container {
   display: flex;
   justify-content: center;
-  column-gap: 4.1vw;
-  margin-top: 5vw;
+  column-gap: 5.641vw;
+  margin-top: 5.185vw;
   padding-top: 1vw;
   padding-bottom: 2vw;
   position: sticky;
   top: 0;
   background-color: white;
   width: 100vw;
+}
+.aPageVideo__container {
+  margin-top: -3.126vw;
+  /* the margin-top should be 2.233vw, it will need to be offset by the video container margin-top which is 5.359vw */
 }
 .bio__x {
   margin-bottom: 1vw;
@@ -27,12 +32,30 @@
   .aPageVideo__container {
     display: flex;
     flex-wrap: wrap;
-    gap: 3vw 4vw;
+    column-gap: 3.902vw;
     justify-content: center;
   }
   .aPageLegend__container {
-    column-gap: 6.1vw;
-    margin-top: 1.3vw;
+    column-gap: 5.208vw;
+    margin-top: 2.344vw;
+  }
+  .aPage__container {
+    margin-bottom: 10.417vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .aPageVideo__container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.06vw;
+    justify-content: center;
+  }
+  .aPageLegend__container {
+    column-gap: 5.208vw;
+    margin-top: 2.344vw;
+  }
+  .aPage__container {
+    margin-bottom: 10.417vw;
   }
 }
 @media screen and (min-width: 1200px) {

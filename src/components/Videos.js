@@ -22,7 +22,7 @@ export default class Videos extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="videoContainer__container">
         <div className="video__container">
           <iframe
             src={this.state.url}
