@@ -2,15 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-const highlight = (letter) => {
-  document.querySelectorAll(
-    "div.header__largeScreens > a"
-  ).style.backgroundColor = "green";
-  document.querySelector(letter).style.backgroundColor = "red";
-};
-console.log(document.querySelectorAll("div.header__largeScreens"));
-
 function Header() {
+  const highlight = (letter) => {
+    document
+      .querySelectorAll(".header__largeScreens > a > div")
+      .forEach((e) => {
+        e.style.backgroundColor = "unset";
+        console.log("green");
+      });
+    const circle = document.getElementById(letter).style;
+    // document.getElementById(letter).style.backgroundColor = "red";
+    circle.backgroundColor = "#B9B2B24D";
+    circle.borderRadius = "50%";
+    circle.height = "3.776vw";
+    circle.width = "3.776vw";
+    circle.margin = "-0.744vw -0.944vw -0.944vw -0.844vw";
+    circle.display = "flex";
+    // circle.position = "absolute";
+    circle.justifyContent = "center";
+    circle.alignItems = "center";
+    console.log("red");
+  };
+
   return (
     <div className="header">
       <Link to="/">
@@ -18,58 +31,58 @@ function Header() {
       </Link>
       <div className="header__largeScreens">
         <Link to="/page/a">
-          <span
+          <div
             id="a"
-            onClick={() => highlight("#a")}
+            onClick={() => highlight("a")}
             className="subHeader__categories"
           >
             A
-          </span>
+          </div>
         </Link>
         <Link to="/page/b">
-          <span
+          <div
             id="b"
-            onClick={() => highlight("#b")}
+            onClick={() => highlight("b")}
             className="subHeader__categories"
           >
             B
-          </span>
+          </div>
         </Link>
         <Link to="/page/c">
-          <span
+          <div
             id="c"
-            onClick={() => highlight("#c")}
+            onClick={() => highlight("c")}
             className="subHeader__categories"
           >
             C
-          </span>
+          </div>
         </Link>
         <Link to="/page/d">
-          <span
+          <div
             id="d"
-            onClick={() => highlight("#d")}
+            onClick={() => highlight("d")}
             className="subHeader__categories"
           >
             D
-          </span>
+          </div>
         </Link>
         <Link to="/page/you">
-          <span
+          <div
             id="you"
-            onClick={() => highlight("#you")}
+            onClick={() => highlight("you")}
             className="subHeader__categories"
           >
             YOU
-          </span>
+          </div>
         </Link>
         <Link to="/page/iit">
-          <span
+          <div
             id="iIt"
-            onClick={() => highlight("#iIt")}
+            onClick={() => highlight("iIt")}
             className="subHeader__categories"
           >
             I, It
-          </span>
+          </div>
         </Link>
       </div>
     </div>
