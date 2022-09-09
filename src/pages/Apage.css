@@ -66,4 +66,8 @@
   .aPageVideo__container {
     column-gap: 3.3vw;
   }
+  .aPageLegend__container {
+    column-gap: 7.448vw;
+    margin-top: 5.99vw;
+  }
 }
