@@ -9,18 +9,18 @@
 .revealMe {
   background-color: #2b61d5;
   color: #f3f3f3;
-  border-radius: 8vw;
-  height: 8.75vw;
-  width: 38vw;
+  border-radius: 5.128vw;
+  height: 10.118vw;
+  width: 44.687vw;
   border: none;
-  font-size: 3vw;
+  font-size: 3.333vw;
   font-family: "C90Degree";
   font-weight: 700;
-  margin-bottom: 2.5vw;
+  margin-bottom: 2.959vw;
 }
 .iIt__bioCv {
   display: flex;
-  gap: 5vw;
+  gap: 5.641vw;
 }
 .bio__x {
   margin-bottom: 1vw;
@@ -28,18 +28,16 @@
   cursor: pointer;
   width: 80%;
 }
-.bio__container > svg {
-  width: 5vw;
-}
+
 .bio__text {
   width: 75vw;
-  line-height: 1.7;
-  font-size: 2.2vw;
+  line-height: 8.205vw;
+  font-size: 3.077vw;
 }
 
 .iIt__bio {
-  height: 7vw;
-  width: 7vw;
+  height: 9.487vw;
+  width: 9.487vw;
   border-radius: 50%;
   background-color: #aecbc7;
   position: relative;
@@ -50,19 +48,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 10.12vw;
+  margin-bottom: 24.359vw;
 }
 
 .yiseulSponge {
-  width: 70vw;
-  margin-bottom: 7vw;
+  width: 69.487vw;
+  height: 38.974vw;
+  margin-bottom: 10vw;
 }
 .cv__imageContainer > img {
-  width: 70vw;
+  margin-left: -3vw;
+  width: 74.872vw;
+  margin-bottom: 10.256vw;
 }
 
 .iIt__cv {
-  height: 7vw;
-  width: 7vw;
+  height: 9.487vw;
+  width: 9.487vw;
   border-radius: 50%;
   background-color: #ddc73e;
   position: relative;
@@ -92,9 +95,32 @@
   }
   .revealMe {
     margin-top: 2.5vw;
-    border-radius: 3vw;
+    border-radius: 2.604vw;
+    width: 36.068vw;
+    height: 8.167vw;
+    font-size: 2.865vw;
   }
-
+  .iIt__bio {
+    width: 7.552vw;
+    height: 7.552vw;
+  }
+  .iIt__cv {
+    width: 7.552vw;
+    height: 7.552vw;
+  }
+  .yiseulSponge {
+    width: 52.995vw;
+    height: 29.818vw;
+    margin-bottom: 6.51vw;
+  }
+  .bio__text {
+    width: 79.167vw;
+    line-height: 4.167vw;
+    font-size: 1.823vw;
+  }
+  .bio__container {
+    margin-left: unset;
+  }
   .iIt__topContent {
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,14 +133,16 @@
   }
   .iIt__bioCv {
     margin-left: 6vw;
-    gap: 0.5vw;
+    gap: 0.521vw;
     z-index: 5;
   }
   .cv__imageContainer {
-    margin-left: 10vw;
+    margin-left: 2vw;
   }
   .cv__imageContainer > img {
-    width: 50vw;
+    width: 69.531vw;
+    margin-left: unset;
+    margin-bottom: 6.51vw;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -145,27 +173,30 @@
   }
   .bio__container {
     flex-direction: row;
-    column-gap: 5vw;
+    column-gap: 7.344vw;
     margin-top: 20vw;
     margin-left: -20vw;
-    margin-bottom: -60vw;
+  }
+  .bio__container > svg {
+    width: 5vw;
   }
   .yiseulSponge {
-    width: 28vw;
+    width: 29.115vw;
+    height: 16.406vw;
     margin-bottom: unset;
   }
   .bio__text {
-    width: 48vw;
-    line-height: 1.7;
-    font-size: 0.9vw;
+    width: 45.833vw;
+    line-height: 1.667;
+    font-size: 0.938vw;
   }
   .cv__imageContainer {
     width: 100vw;
     display: flex;
     column-gap: 1.4vw;
-    margin-left: -4vw;
+    margin-left: -11.4vw;
   }
   .cv__imageContainer > img {
-    width: 25vw;
+    width: 27.813vw;
   }
 }

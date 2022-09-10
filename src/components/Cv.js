@@ -60,8 +60,8 @@ const Cv = ({ onClick, showComponent }) => {
           </svg>
           <div className="cv__imageContainer">
             <img src="/cv/cv1.png" alt="cv page 1" />
-            <img src="/cv/cv1.png" alt="cv page 2" />
-            <img src="/cv/cv1.png" alt="cv page 3" />
+            <img src="/cv/cv2.png" alt="cv page 2" />
+            <img src="/cv/cv3.png" alt="cv page 3" />
           </div>
         </div>
       )}

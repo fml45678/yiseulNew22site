@@ -4,8 +4,8 @@
   position: relative;
 }
 .circles__circles {
-  width: 18vw;
-  height: 18vw;
+  width: 15.385vw;
+  height: 15.385vw;
   border-radius: 50%;
   position: absolute;
   display: flex;
@@ -20,9 +20,10 @@
   font-weight: 900;
   color: #f3f3f3;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #f3f3f3;
-  font-size: 3vw;
+  font-size: 3.077vw;
   text-align: center;
   width: 13vw;
+  line-height: 2.521vw;
 }
 @media screen and (min-width: 768px) {
   .circles__container {
@@ -30,8 +31,8 @@
     z-index: 1;
   }
   .circles__circles {
-    width: 8vw;
-    height: 8vw;
+    width: 8.203vw;
+    height: 8.203vw;
     z-index: 3;
   }
   .circles__text {
