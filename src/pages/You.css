@@ -8,43 +8,43 @@
 .you__promise {
   background-color: #2b61d5;
   color: #f3f3f3;
-  border-radius: 8vw;
-  height: 10.25vw;
-  width: 56vw;
+  border-radius: 5.128vw;
+  height: 10.513vw;
+  width: 57.692vw;
   border: none;
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 3.59vw;
   font-family: "C90Degree";
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8vw;
+  margin-bottom: 9.159vw;
 }
 .you__question {
   width: 58vw;
   margin-top: 6vw;
 }
 .you__feedbackCircle {
-  height: 65.25vw;
-  width: 65.25vw;
+  height: 67.949vw;
+  width: 67.949vw;
   border-radius: 50%;
-  border: 2vw solid #3b6052;
+  border: 2.051vw solid #3b6052;
   background-color: #eea4c8;
   color: #f3f3f3;
   text-align: center;
-  font-size: 3.5vw;
+  font-size: 3.333vw;
   font-family: "C90Degree";
   font-weight: 700;
-  margin-bottom: 8vw;
+  margin-bottom: 11.026vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .feedbackCircle__submitButton {
-  height: 2.5vw;
+  height: 2.564vw;
+  width: 2.564vw;
   cursor: pointer;
-  width: 2.5vw;
   border-radius: 50%;
   background-color: #cf3e2c;
 }
@@ -70,7 +70,7 @@
   border: none;
   width: 45vw;
   height: 45vw;
-  margin-top: 7vw;
+  margin-top: 7.692vw;
 }
 
 #youCirlceTwo > p {
@@ -89,15 +89,16 @@
   text-align: center;
 }
 .you__socialLinks {
-  width: 18.5vw;
-  height: 18.5vw;
+  width: 19.231vw;
+  height: 19.231vw;
   border-radius: 50%;
   color: #ed5d32;
   font-family: "C90Degree";
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 3.333vw;
+  letter-spacing: 0.074vw;
   background-color: #95b2d5;
-  margin-bottom: 4vw;
+  margin-bottom: 2.564vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,17 +126,47 @@
     display: flex;
     column-gap: 8vw;
   }
+  .you__socialLinks {
+    width: 15.625vw;
+    height: 15.625vw;
+    font-size: 2.344vw;
+  }
   .you__container {
     margin-top: 1.3vw;
   }
   .you__promise {
     margin-top: 2.5vw;
+    width: 36.068vw;
+    height: 6.641vw;
+    font-size: 2.344vw;
+    border-radius: 2.604vw;
+    margin-bottom: 7.943vw;
   }
-  .you__feedbackCircle__input {
-    font-size: 32px;
+  .you__feedbackCircle {
+    height: 38.542vw;
+    width: 38.542vw;
+    border: 2.604vw solid #3b6052;
+    font-size: 1.953vw;
+    margin-bottom: 7.813vw;
   }
   .you__feedbackCircle__textarea {
     font-size: 32px;
+    width: 26.823vw;
+    height: 11.198vw;
+  }
+  .feedbackCircle__submitButton {
+    width: 1.563vw;
+    height: 1.563vw;
+  }
+  #youCirlceTwo {
+    margin-top: 5.599vw;
+    width: 33.594vw;
+    height: 33.594vw;
+  }
+  .you__feedbackCircle__input {
+    font-size: 32px;
+    width: 25vw;
+    height: 3.906vw;
   }
 }
 @media screen and (min-width: 1200px) {
