@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <g id="Group_322" data-name="Group 322" transform="translate(-252 -1050)">
+    <g id="Component_13_34" data-name="Component 13 – 34" transform="translate(272 1070)">
+      <g id="Ellipse_246" data-name="Ellipse 246" fill="#fff" stroke="#3f6d5b" stroke-linecap="round" stroke-width="20">
+        <circle cx="100" cy="100" r="100" stroke="none"/>
+        <circle cx="100" cy="100" r="110" fill="none"/>
+      </g>
+    </g>
+    <text id="Toothbrush" transform="translate(372.5 1180.5)" fill="#2972ae" stroke="#2b66a0" stroke-width="1" font-size="50" font-family="C90Degree-Regular, C90 Degree" letter-spacing="0.022em"><tspan x="-94" y="0">Toothbrush</tspan></text>
+  </g>
+</svg>

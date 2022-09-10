@@ -6,7 +6,14 @@
   flex-direction: column;
   row-gap: 15vw;
 }
-
+.svgCircle {
+  width: 24vw;
+  background-color: orange;
+}
+.svgCircleText {
+  width: 100vw;
+  background-color: orange;
+}
 .dPage__headerTitle {
   margin-left: 42vw;
 }
@@ -14,52 +21,30 @@
 .dContainer {
   display: flex;
   justify-content: center;
-  column-gap: 37vw;
 }
 .dContainer__noMiddleText {
   display: flex;
   justify-content: center;
-  column-gap: 45vw;
+  column-gap: 38.205vw;
 }
 .dPage__circleRight {
   display: flex;
 }
 .dPageCircle__full {
-  width: 20vw;
-  height: 20vw;
+  width: 20.513vw;
+  height: 20.513vw;
   border-radius: 50%;
   background-color: #de1717;
 }
 .dPageCircle__border {
-  width: 15vw;
-  height: 15vw;
+  width: 15.385vw;
+  height: 15.385vw;
   border-radius: 50%;
   border: 1.3vw solid #de1717;
   background-color: transparent;
   position: relative;
 }
-.dPageTri__right {
-  width: 0;
-  height: 0;
-  border-top: 8vw solid transparent;
-  border-bottom: 8vw solid transparent;
-  border-left: 8vw solid #de1717;
-  position: relative;
-  margin-right: -1vw;
-  transform: scaleY(0.26);
-}
-.dPageTri__right::after {
-  content: "";
-  width: 0;
-  height: 0;
-  /* opacity: 0.4; */
-  border-top: 8vw solid transparent;
-  border-bottom: 8vw solid transparent;
-  border-left: 8vw solid white;
-  position: absolute;
-  top: -8vw;
-  right: 2vw;
-}
+
 .dPage__circleText {
   font-family: "C90Degree";
   font-weight: 900;
@@ -83,7 +68,7 @@
   color: #2b66a0;
   width: 50vw;
 }
-.dPage__middleText2 {
+/* .dPage__middleText2 {
   font-family: "C90Degree";
   font-weight: 900;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
@@ -94,7 +79,7 @@
   right: 24vw;
   color: #2b66a0;
   width: 50vw;
-}
+} */
 .dPage__middleTextBottom {
   font-family: "C90Degree";
   font-weight: 900;
@@ -115,31 +100,6 @@
   border: 1.3vw solid #ddc73e;
 }
 
-#twoText {
-  left: 32%;
-}
-
-#twoTri {
-  border-left: 8vw solid #ddc73e;
-}
-
-#threeFull {
-  background-color: #2972ae;
-}
-#threeBorder {
-  border: 1.3vw solid #2972ae;
-}
-#threeText {
-  left: 2%;
-  font-size: 3.3vw;
-}
-#threeMiddleTextOne {
-  bottom: 10vw;
-}
-
-#threeTri {
-  border-left: 8vw solid #2972ae;
-}
 #threeBorder > div {
   bottom: 1vw;
   /* right: 24vw; */
@@ -195,7 +155,7 @@
 
 #fiveMiddleText {
   left: unset;
-  right: 35vw;
+  right: 29vw;
   color: #eea4c8;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #eea4c8;
 }
@@ -217,5 +177,20 @@
   }
   #firstCircle {
     margin-top: -8vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .dPage__container {
+    margin-top: 1.3vw;
+  }
+  #firstCircle {
+    margin-top: -8vw;
+  }
+  /* .leftCircle {
+    width: 15.625vw;
+    height: 15.625vw;
+  } */
+  .popOutWithArrows {
+    /* width: 52.083; */
   }
 }

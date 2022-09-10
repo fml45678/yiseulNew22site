@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850.75" height="240" viewBox="0 0 850.75 240">
+  <g id="Group_319" data-name="Group 319" transform="translate(-799.25 -1765)">
+    <path id="Polygon_10" data-name="Polygon 10" d="M15,0,30,25H0Z" transform="translate(1183 1770) rotate(90)" fill="#fff"/>
+    <path id="Polygon_9" data-name="Polygon 9" d="M15,0,30,25H0Z" transform="translate(1603 1770) rotate(90)" fill="#fff"/>
+    <g id="Component_13_35" data-name="Component 13 – 35" transform="translate(1430 1785)">
+      <g id="Ellipse_246" data-name="Ellipse 246" fill="#fff" stroke="#ddc73e" stroke-linecap="round" stroke-width="20">
+        <circle cx="100" cy="100" r="100" stroke="none"/>
+        <circle cx="100" cy="100" r="110" fill="none"/>
+      </g>
+    </g>
+    <text id="Fish" transform="translate(1495.75 1903)" fill="#2972ae" stroke="#2b66a0" stroke-width="1" font-size="50" font-family="C90Degree-Regular, C90 Degree" letter-spacing="0.022em"><tspan x="0" y="0">Fish</tspan></text>
+    <text id="Fish_Bar_Over_21" data-name="Fish Bar Over 21" transform="translate(955.25 1822.5)" fill="#2972ae" stroke="#2b66a0" stroke-width="1" font-size="50" font-family="C90Degree-Regular, C90 Degree" letter-spacing="0.022em"><tspan x="-149" y="0">Fish Bar Over 21</tspan></text>
+    <text id="Fish_Elementary" data-name="Fish Elementary" transform="translate(953.25 1954.5)" fill="#2972ae" stroke="#2b66a0" stroke-width="1" font-size="50" font-family="C90Degree-Regular, C90 Degree" letter-spacing="0.022em"><tspan x="-152" y="0">Fish Elementary</tspan></text>
+    <line id="Line_5" data-name="Line 5" x2="278" y2="81" transform="translate(1138.5 1801)" fill="none" stroke="#ddc73e" stroke-width="3"/>
+    <line id="Line_6" data-name="Line 6" y1="60" x2="291" transform="translate(1125.5 1882)" fill="none" stroke="#ddc73e" stroke-width="3"/>
+  </g>
+</svg>

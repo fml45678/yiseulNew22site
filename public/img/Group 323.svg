@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="819" height="240" viewBox="0 0 819 240">
+  <g id="Group_323" data-name="Group 323" transform="translate(-270 -3879)">
+    <g id="Component_13_38" data-name="Component 13 – 38" transform="translate(290 3899)">
+      <g id="Ellipse_246" data-name="Ellipse 246" fill="#fff" stroke="#d2a53b" stroke-linecap="round" stroke-width="20">
+        <circle cx="100" cy="100" r="100" stroke="none"/>
+        <circle cx="100" cy="100" r="110" fill="none"/>
+      </g>
+    </g>
+    <text id="portrait" transform="translate(390.5 4009.5)" fill="#2972ae" stroke="#2b66a0" stroke-width="1" font-size="50" font-family="C90Degree-Regular, C90 Degree" letter-spacing="0.022em"><tspan x="-68" y="0">portrait</tspan></text>
+    <text id="Coming_soon" data-name="Coming soon" transform="translate(960 4010)" fill="#d2a53b" stroke="#d2a53b" stroke-width="1" font-size="50" font-family="C90Degree-Regular, C90 Degree" letter-spacing="0.022em"><tspan x="-127" y="0">COMING SOON</tspan></text>
+  </g>
+</svg>
