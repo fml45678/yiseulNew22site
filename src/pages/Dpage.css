@@ -7,12 +7,14 @@
   row-gap: 15vw;
 }
 .svgCircle {
-  width: 24vw;
-  background-color: orange;
+  /* width: 24vw; */
+  /* background-color: orange; */
+  transform: scale(0.85);
 }
 .svgCircleText {
-  width: 100vw;
-  background-color: orange;
+  /* width: 50vw; */
+  transform: scale(0.98);
+  /* background-color: orange; */
 }
 .dPage__headerTitle {
   margin-left: 42vw;
@@ -25,7 +27,7 @@
 .dContainer__noMiddleText {
   display: flex;
   justify-content: center;
-  column-gap: 38.205vw;
+  column-gap: 59.205vw;
 }
 .dPage__circleRight {
   display: flex;
@@ -178,19 +180,57 @@
   #firstCircle {
     margin-top: -8vw;
   }
+  .dPageCircle__full {
+    width: 19.531vw;
+    height: 19.531vw;
+  }
+  .svgCircle {
+    width: 34vw;
+    transform: scale(1.3);
+  }
+  .svgCircleText {
+    width: 100vw;
+    transform: scale(1.3);
+  }
 }
 @media screen and (min-width: 1200px) {
+  .svgCircle {
+    width: unset;
+    transform: scale(2.6);
+  }
+  .svgCircleText {
+    width: 70vw;
+    transform: scale(2.2);
+    /* background-color: transparent; */
+    /* opacity: 0.3; */
+  }
+  .dPageCircle__full {
+    width: 15.625vw;
+    height: 15.625vw;
+  }
+  .dPageCircle__border {
+    width: 10.417vw;
+    height: 10.417vw;
+  }
+  .dPage__circleText {
+    font-size: 2.5vw;
+  }
+  #twoNoMidText,
+  #threeNoMidText {
+    font-size: 2.1vw;
+    text-align: center;
+  }
+  #fiveText {
+    font-size: 1.9vw;
+    text-align: center;
+    left: 16%;
+    bottom: 30%;
+  }
+
   .dPage__container {
     margin-top: 1.3vw;
   }
   #firstCircle {
     margin-top: -8vw;
-  }
-  /* .leftCircle {
-    width: 15.625vw;
-    height: 15.625vw;
-  } */
-  .popOutWithArrows {
-    /* width: 52.083; */
   }
 }

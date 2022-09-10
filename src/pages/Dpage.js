@@ -18,7 +18,7 @@ function Dpage() {
       <div id="firstCircle" className="dContainer">
         <div
           onClick={() => {
-            setShowComponent(true);
+            setShowComponent(!showComponent);
           }}
           // className="dPageCircle__full"
         >
@@ -150,7 +150,7 @@ function Dpage() {
         )}
         <div
           onClick={() => {
-            setShowComponent2(true);
+            setShowComponent2(!showComponent2);
           }}
           id="oneNoMidFull"
           className="dPageCircle__full"
@@ -160,7 +160,7 @@ function Dpage() {
       <div className="dContainer">
         <div
           onClick={() => {
-            setShowComponent3(true);
+            setShowComponent3(!showComponent3);
           }}
           // id="twoFull"
           // className="dPageCircle__full"
@@ -311,16 +311,14 @@ function Dpage() {
           <div className="dPage__circleRight">
             <div id="twoNoMidBorder" className="dPageCircle__border">
               <div id="twoNoMidText" className="dPage__circleText">
-                Index of
-                <br />
-                Heartbreak
+                Index of Heartbreak
               </div>
             </div>
           </div>
         )}
         <div
           onClick={() => {
-            setShowComponent4(true);
+            setShowComponent4(!showComponent4);
           }}
           id="twoNoMidFull"
           className="dPageCircle__full"
@@ -330,7 +328,7 @@ function Dpage() {
       <div className="dContainer">
         <div
           onClick={() => {
-            setShowComponent5(true);
+            setShowComponent5(!showComponent5);
           }}
           // id="threeFull"
           // className="dPageCircle__full"
@@ -485,7 +483,7 @@ function Dpage() {
         )}
         <div
           onClick={() => {
-            setShowComponent6(true);
+            setShowComponent6(!showComponent6);
           }}
           id="fourFull"
           className="dPageCircle__full"
@@ -495,7 +493,7 @@ function Dpage() {
       <div className="dContainer__noMiddleText">
         <div
           onClick={() => {
-            setShowComponent7(true);
+            setShowComponent7(!showComponent7);
           }}
           id="fiveFull"
           className="dPageCircle__full"
@@ -527,7 +525,7 @@ function Dpage() {
         )}
         <div
           onClick={() => {
-            setShowComponent8(true);
+            setShowComponent8(!showComponent8);
           }}
           id="threeNoMidFull"
           className="dPageCircle__full"
