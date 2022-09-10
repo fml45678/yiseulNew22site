@@ -119,11 +119,10 @@ function You() {
             </div>
           </a>
         </div>
-        <div id="youCirlceTwo" className="you__feedbackCircle">
+        <div id="youCircleTwo" className="you__feedbackCircle">
           <p className="you__question">
-            If you would like <br /> to know about the <br /> Next adventure{" "}
-            <br /> By Yiseul
-            <br /> LeMieux?
+            If you would like to know about the Next adventure By Yiseul
+            LeMieux?
           </p>
           <form
           // id="FORM" ref={form}
