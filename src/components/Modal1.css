@@ -72,6 +72,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .modal1Container__container {
+    height: 120vh;
+    margin-top: -15vw;
+  }
+
   .modal1__container {
     width: 44vw;
     height: 30vw;
