@@ -101,10 +101,14 @@
     margin-left: 15.625vw;
   }
   .header__largeScreens {
-    column-gap: 0vw;
+    column-gap: 1vw;
     margin-right: 6.05vw;
     margin-top: 0.171vw;
     font-size: 1.042vw;
+  }
+  .subHeader__categories {
+    width: 1.979vw;
+    height: 1.979vw;
   }
   .pageTitle {
     margin-top: 1.771vw;

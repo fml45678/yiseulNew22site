@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import "./SubHeader.css";
 function SubHeader() {
   const highlightSub = (letter) => {
-    document.querySelectorAll(".subHeader__categories").forEach((e) => {
+    document.querySelectorAll(".phoneSubHeader__categories").forEach((e) => {
       e.style.backgroundColor = "transparent";
     });
     const circle = document.getElementById(letter).style;
@@ -14,7 +14,7 @@ function SubHeader() {
       <div className="subHeader__container">
         <Link to="/page/a">
           <div
-            className="subHeader__categories"
+            className="phoneSubHeader__categories"
             id="aSub"
             onClick={() => highlightSub("aSub")}
           >
@@ -23,7 +23,7 @@ function SubHeader() {
         </Link>
         <Link to="/page/b">
           <div
-            className="subHeader__categories"
+            className="phoneSubHeader__categories"
             id="bSub"
             onClick={() => highlightSub("bSub")}
           >
@@ -32,7 +32,7 @@ function SubHeader() {
         </Link>
         <Link to="/page/c">
           <div
-            className="subHeader__categories"
+            className="phoneSubHeader__categories"
             id="cSub"
             onClick={() => highlightSub("cSub")}
           >
@@ -41,7 +41,7 @@ function SubHeader() {
         </Link>
         <Link to="/page/d">
           <div
-            className="subHeader__categories"
+            className="phoneSubHeader__categories"
             id="dSub"
             onClick={() => highlightSub("dSub")}
           >
@@ -50,7 +50,7 @@ function SubHeader() {
         </Link>
         <Link to="/page/you">
           <div
-            className="subHeader__categories"
+            className="phoneSubHeader__categories"
             id="youSub"
             onClick={() => highlightSub("youSub")}
           >
@@ -59,7 +59,7 @@ function SubHeader() {
         </Link>
         <Link to="/page/iit">
           <div
-            className="subHeader__categories"
+            className="phoneSubHeader__categories"
             id="iItSub"
             onClick={() => highlightSub("iItSub")}
           >
