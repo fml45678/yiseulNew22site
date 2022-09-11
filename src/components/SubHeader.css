@@ -1,7 +1,7 @@
 .subHeader__container {
   display: flex;
   justify-content: center;
-  column-gap: 7.887vw;
+  column-gap: 4.6vw;
 }
 
 .subHeader__container > a {
@@ -9,6 +9,15 @@
   text-decoration: none;
   font-size: 3.077vw;
   padding: 0.8vw;
+}
+.subHeader__categories {
+  width: 5.897vw;
+  height: 5.897vw;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .subHeader__container > a {
