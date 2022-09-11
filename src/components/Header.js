@@ -4,24 +4,11 @@ import "./Header.css";
 
 function Header() {
   const highlight = (letter) => {
-    document
-      .querySelectorAll(".header__largeScreens > a > div")
-      .forEach((e) => {
-        e.style.backgroundColor = "unset";
-        console.log("green");
-      });
+    document.querySelectorAll(".subHeader__categories").forEach((e) => {
+      e.style.backgroundColor = "transparent";
+    });
     const circle = document.getElementById(letter).style;
-    // document.getElementById(letter).style.backgroundColor = "red";
     circle.backgroundColor = "#B9B2B24D";
-    circle.borderRadius = "50%";
-    circle.height = "3.776vw";
-    circle.width = "3.776vw";
-    circle.margin = "-0.744vw -0.944vw -0.944vw -0.844vw";
-    circle.display = "flex";
-    // circle.position = "absolute";
-    circle.justifyContent = "center";
-    circle.alignItems = "center";
-    console.log("red");
   };
 
   return (
