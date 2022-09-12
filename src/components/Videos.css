@@ -49,7 +49,7 @@ iframe {
     margin-bottom: 0.521vw;
   }
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .video__container {
     margin-top: 3.06vw;
   }
@@ -70,7 +70,7 @@ iframe {
     font-size: 1.27vw;
     margin-bottom: 0.629vw;
   }
-}
+} */
 @media screen and (min-width: 1200px) {
   .video__container {
     margin-top: 7.552vw;
