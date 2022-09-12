@@ -42,6 +42,12 @@
   border-radius: 40vw;
   height: 35vw;
 }
+/* #modal2 font-size changes the button text and modal2__question changes the question text */
+.modal2__question {
+  font-size: 3.846vw;
+  letter-spacing: 0.385vw;
+  line-height: 7.179vw;
+}
 .modal2__choices {
   display: flex;
   margin-top: 5vw;
@@ -54,14 +60,17 @@
   border-radius: 50%;
   background-color: #4b5c28;
 }
-.modal2__circles:nth-child(2) {
+/* blueCircle__container is actually used for both buttons */
+.blueCircle__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5vw;
+}
+#modal2BlueCircle {
   background-color: #95b2d5;
 }
-.modal2__circles > span {
-  position: relative;
-  top: 4vw;
-  right: 2vw;
-}
+
 .modal3 > svg {
   width: 70vw;
   height: 70vw;
@@ -77,6 +86,25 @@
   .modal1__container {
     width: 57.943;
     height: 49.87vw;
+  }
+  #modal2 {
+    width: 54.948vw;
+    height: 29.036vw;
+    border: 1.953vw solid #d7bf4c;
+    border-radius: 39.063vw;
+    letter-spacing: 0.313vw;
+    font-size: 2.474vw;
+  }
+  .modal2__question {
+    font-size: 3.125vw;
+    line-height: 5.859vw;
+  }
+  .modal2__circles {
+    width: 2.474vw;
+    height: 2.474vw;
+  }
+  .modal2__choices {
+    gap: 20.313vw;
   }
 }
 
@@ -108,18 +136,21 @@
   #modal2 {
     border: 1.4vw solid #d7bf4c;
     border-radius: 40vw;
-    height: 22vw;
+    height: 19.271vw;
+    width: 35.729vw;
+    font-size: 1.823vw;
   }
-  #modal2__textContainer {
-    margin-top: -5vw;
+  .modal2__question {
+    font-size: 2.083vw;
+    line-height: 3.906vw;
   }
   .modal2__choices {
     margin-top: 1vw;
-    gap: 17vw;
+    gap: 12.083vw;
   }
   .modal2__circles {
-    height: 3vw;
-    width: 3vw;
+    height: 1.563vw;
+    width: 1.563vw;
   }
   .modal2__circles > span {
     position: relative;
