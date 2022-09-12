@@ -9,7 +9,7 @@ const Modal1 = () => {
     const intervalId = setInterval(() => {
       setShowComponent(true);
       clearInterval(intervalId);
-    }, 50000);
+    }, 5000);
   }, []);
 
   return (

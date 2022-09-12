@@ -59,7 +59,7 @@
     margin-top: -1vw;
   }
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .description__text {
     font-size: 1.27vw;
   }
@@ -71,7 +71,7 @@
   .videoDescriptionModal > p {
     width: 20.02vw;
   }
-}
+} */
 @media screen and (min-width: 1200px) {
   .description__text {
     font-size: 0.934vw;

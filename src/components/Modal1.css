@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 110vh;
-  margin-top: -15vw;
+  height: 120vh;
+  margin-top: -35vw;
   background-color: rgb(231, 227, 227);
   opacity: 0.95;
   position: fixed;
@@ -18,9 +18,9 @@
   color: #16463b;
   text-shadow: 0.1px 0.3px, 0.2px 0.6px #16463b;
   font-size: 3.8vw;
-  width: 70.5vw;
-  height: 48vw;
-  border: 2vw solid #d23021;
+  width: 72.821vw;
+  height: 50vw;
+  border: 2.051vw solid #d23021;
   background-color: white;
   border-radius: 4vw;
   z-index: 10;
@@ -70,6 +70,15 @@
   width: 60vw;
   height: 60vw;
 }
+@media screen and (min-width: 768px) {
+  .modal1Container__container {
+    margin-top: -15vw;
+  }
+  .modal1__container {
+    width: 57.943;
+    height: 49.87vw;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .modal1Container__container {
@@ -78,9 +87,11 @@
   }
 
   .modal1__container {
-    width: 44vw;
-    height: 30vw;
-    font-size: 2.6vw;
+    width: 36.458vw;
+    height: 21.875vw;
+    border: 0.781vw solid #d23021;
+    border-radius: 1.042vw;
+    font-size: 1.042vw;
   }
   .small {
     font-size: 1.5vw;
