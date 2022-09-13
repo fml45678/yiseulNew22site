@@ -1,0 +1,233 @@
+.dPage__container {
+  min-height: 70vh;
+  margin-top: 10vw;
+  margin-bottom: 12vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15vw;
+}
+.svgCircle {
+  /* width: 24vw; */
+  /* background-color: orange; */
+  transform: scale(0.85);
+}
+.svgCircleText {
+  /* width: 50vw; */
+  transform: scale(0.98);
+  /* background-color: orange; */
+}
+.dPage__headerTitle {
+  margin-left: 42vw;
+}
+
+.dContainer {
+  display: flex;
+  justify-content: center;
+}
+.dContainer__noMiddleText {
+  display: flex;
+  justify-content: center;
+  column-gap: 59.205vw;
+}
+.dPage__circleRight {
+  display: flex;
+}
+.dPageCircle__full {
+  width: 20.513vw;
+  height: 20.513vw;
+  border-radius: 50%;
+  background-color: #de1717;
+}
+.dPageCircle__border {
+  width: 15.385vw;
+  height: 15.385vw;
+  border-radius: 50%;
+  border: 1.3vw solid #de1717;
+  background-color: transparent;
+  position: relative;
+}
+
+.dPage__circleText {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
+  font-size: 3.5vw;
+  position: absolute;
+  bottom: 36%;
+  left: 24%;
+  color: #2b66a0;
+}
+.dPage__middleText1 {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 8.3vw;
+  text-align: right;
+  right: 24vw;
+  /* right: 32%; */
+  color: #2b66a0;
+  width: 50vw;
+}
+/* .dPage__middleText2 {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 5vw;
+  text-align: right;
+  right: 24vw;
+  color: #2b66a0;
+  width: 50vw;
+} */
+.dPage__middleTextBottom {
+  font-family: "C90Degree";
+  font-weight: 900;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #d2a53b;
+  font-size: 3vw;
+  position: absolute;
+  bottom: 5.5vw;
+  text-align: right;
+  left: 10vw;
+  color: #d2a53b;
+  width: 35vw;
+}
+
+#twoFull {
+  background-color: #ddc73e;
+}
+#twoBorder {
+  border: 1.3vw solid #ddc73e;
+}
+
+#threeBorder > div {
+  bottom: 1vw;
+  /* right: 24vw; */
+  width: 37vw;
+  text-align: center;
+}
+
+#oneNoMidFull {
+  background-color: #3f6d5b;
+}
+#oneNoMidBorder {
+  border: 1.3vw solid #3f6d5b;
+}
+#oneNoMidText {
+  left: 4%;
+}
+
+#twoNoMidFull {
+  background-color: #a8adc0;
+}
+#twoNoMidBorder {
+  border: 1.3vw solid #a8adc0;
+}
+#twoNoMidText {
+  left: 3%;
+  bottom: 28%;
+  font-size: 3vw;
+  text-align: center;
+}
+
+#fourFull {
+  background-color: #d2a53b;
+}
+#fourBorder {
+  border: 1.3vw solid #d2a53b;
+}
+
+#fourText {
+  left: 14%;
+  bottom: 35%;
+}
+#fiveFull {
+  background-color: #eea4c8;
+}
+#fiveBorder {
+  border: 1.3vw solid #eea4c8;
+}
+
+#fiveText {
+  left: 26%;
+  bottom: 10%;
+}
+
+#fiveMiddleText {
+  left: unset;
+  right: 29vw;
+  color: #eea4c8;
+  text-shadow: 0.1px 0.3px, 0.2px 0.6px #eea4c8;
+}
+
+#threeNoMidFull {
+  background-color: #b0412f;
+}
+#threeNoMidBorder {
+  border: 1.3vw solid #b0412f;
+}
+#threeNoMidText {
+  left: 8%;
+  bottom: 15%;
+  font-size: 3vw;
+}
+@media screen and (min-width: 768px) {
+  .dPage__container {
+    margin-top: unset;
+  }
+  #firstCircle {
+    margin-top: -8vw;
+  }
+  .dPageCircle__full {
+    width: 19.531vw;
+    height: 19.531vw;
+  }
+  .svgCircle {
+    width: 34vw;
+    transform: scale(1.7);
+  }
+  .svgCircleText {
+    width: 100vw;
+    transform: scale(1.3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .svgCircle {
+    width: unset;
+    transform: scale(2.6);
+  }
+  .svgCircleText {
+    width: 70vw;
+    transform: scale(2.2);
+    /* background-color: transparent; */
+    /* opacity: 0.3; */
+  }
+  .dPageCircle__full {
+    width: 15.625vw;
+    height: 15.625vw;
+  }
+  .dPageCircle__border {
+    width: 10.417vw;
+    height: 10.417vw;
+  }
+  .dPage__circleText {
+    font-size: 2.5vw;
+  }
+  #twoNoMidText,
+  #threeNoMidText {
+    font-size: 2.1vw;
+    text-align: center;
+  }
+  #fiveText {
+    font-size: 1.9vw;
+    text-align: center;
+    left: 16%;
+    bottom: 30%;
+  }
+
+  #firstCircle {
+    margin-top: -8vw;
+  }
+}

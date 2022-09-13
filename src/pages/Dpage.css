@@ -1,233 +1,122 @@
 .dPage__container {
-  min-height: 70vh;
-  margin-top: 10vw;
-  margin-bottom: 12vw;
   display: flex;
   flex-direction: column;
-  row-gap: 15vw;
+  align-items: center;
+  margin-bottom: 37.692vw;
 }
-.svgCircle {
-  /* width: 24vw; */
-  /* background-color: orange; */
-  transform: scale(0.85);
+.dPage__circleContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15.385vw;
+  margin-top: 7.949vw;
+  align-items: center;
 }
-.svgCircleText {
-  /* width: 50vw; */
-  transform: scale(0.98);
-  /* background-color: orange; */
-}
-.dPage__headerTitle {
-  margin-left: 42vw;
-}
-
-.dContainer {
+.dPage__circleRows {
   display: flex;
   justify-content: center;
+  /* background-color: blue; */
 }
-.dContainer__noMiddleText {
-  display: flex;
-  justify-content: center;
-  column-gap: 59.205vw;
+.circleFirst {
+  /* background-color: pink; */
+  height: 15.513vw;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
 }
-.dPage__circleRight {
-  display: flex;
+.circleFirstRight {
+  /* background-color: lightblue; */
+  height: 15.513vw;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
 }
-.dPageCircle__full {
-  width: 20.513vw;
+.circleComingSoonSolo {
+  height: 15.513vw;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+  /* background-color: red; */
+}
+.circleSecond {
+  /* background-color: lightgreen; */
   height: 20.513vw;
-  border-radius: 50%;
-  background-color: #de1717;
+  width: 75vw;
+  display: none;
+  margin-right: -5vw;
 }
-.dPageCircle__border {
-  width: 15.385vw;
-  height: 15.385vw;
-  border-radius: 50%;
-  border: 1.3vw solid #de1717;
-  background-color: transparent;
-  position: relative;
+.circleSecondGroupTwo {
+  /* background-color: purple; */
+  height: 20.513vw;
+  width: 22vw;
+  margin-right: 48vw;
+  margin-left: -3vw;
+  display: none;
 }
-
-.dPage__circleText {
-  font-family: "C90Degree";
-  font-weight: 900;
-  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
-  font-size: 3.5vw;
-  position: absolute;
-  bottom: 36%;
-  left: 24%;
-  color: #2b66a0;
+.circleSecondGroupThree {
+  /* background-color: orange; */
+  height: 20.513vw;
+  width: 25vw;
+  margin-right: 9vw;
+  margin-left: -5vw;
 }
-.dPage__middleText1 {
-  font-family: "C90Degree";
-  font-weight: 900;
-  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
-  font-size: 3vw;
-  position: absolute;
-  bottom: 8.3vw;
-  text-align: right;
-  right: 24vw;
-  /* right: 32%; */
-  color: #2b66a0;
-  width: 50vw;
+.comingSoonContainer {
+  display: flex;
+  align-items: center;
+  /* background-color: aqua; */
 }
-/* .dPage__middleText2 {
-  font-family: "C90Degree";
-  font-weight: 900;
-  text-shadow: 0.1px 0.3px, 0.2px 0.6px #2b66a0;
-  font-size: 3vw;
-  position: absolute;
-  bottom: 5vw;
-  text-align: right;
-  right: 24vw;
-  color: #2b66a0;
-  width: 50vw;
-} */
-.dPage__middleTextBottom {
-  font-family: "C90Degree";
-  font-weight: 900;
-  text-shadow: 0.1px 0.3px, 0.2px 0.6px #d2a53b;
-  font-size: 3vw;
-  position: absolute;
-  bottom: 5.5vw;
-  text-align: right;
-  left: 10vw;
-  color: #d2a53b;
-  width: 35vw;
+/* the nth-child's below are for the pink circles and the non nth's are for the gold */
+.circleSecondGroupThree:nth-child(2) {
+  /* background-color: green; */
+  height: 20.513vw;
+  width: 25vw;
+  margin-right: -3vw;
+  margin-left: -3vw;
+}
+.comingSoon:nth-child(1) {
+  width: 25vw;
+  margin-left: 12vw;
+  /* background-color: brown; */
 }
 
-#twoFull {
-  background-color: #ddc73e;
+#dCircle6,
+#dCircle7 {
+  display: none;
 }
-#twoBorder {
-  border: 1.3vw solid #ddc73e;
-}
-
-#threeBorder > div {
-  bottom: 1vw;
-  /* right: 24vw; */
-  width: 37vw;
-  text-align: center;
-}
-
-#oneNoMidFull {
-  background-color: #3f6d5b;
-}
-#oneNoMidBorder {
-  border: 1.3vw solid #3f6d5b;
-}
-#oneNoMidText {
-  left: 4%;
-}
-
-#twoNoMidFull {
-  background-color: #a8adc0;
-}
-#twoNoMidBorder {
-  border: 1.3vw solid #a8adc0;
-}
-#twoNoMidText {
-  left: 3%;
-  bottom: 28%;
-  font-size: 3vw;
-  text-align: center;
-}
-
-#fourFull {
-  background-color: #d2a53b;
-}
-#fourBorder {
-  border: 1.3vw solid #d2a53b;
-}
-
-#fourText {
-  left: 14%;
-  bottom: 35%;
-}
-#fiveFull {
-  background-color: #eea4c8;
-}
-#fiveBorder {
-  border: 1.3vw solid #eea4c8;
-}
-
-#fiveText {
-  left: 26%;
-  bottom: 10%;
-}
-
-#fiveMiddleText {
-  left: unset;
-  right: 29vw;
-  color: #eea4c8;
-  text-shadow: 0.1px 0.3px, 0.2px 0.6px #eea4c8;
-}
-
-#threeNoMidFull {
-  background-color: #b0412f;
-}
-#threeNoMidBorder {
-  border: 1.3vw solid #b0412f;
-}
-#threeNoMidText {
-  left: 8%;
-  bottom: 15%;
-  font-size: 3vw;
+.comingSoon {
+  width: 25vw;
+  margin-right: 14vw;
+  /* background-color: yellow; */
 }
 @media screen and (min-width: 768px) {
   .dPage__container {
-    margin-top: unset;
-  }
-  #firstCircle {
-    margin-top: -8vw;
-  }
-  .dPageCircle__full {
-    width: 19.531vw;
-    height: 19.531vw;
-  }
-  .svgCircle {
-    width: 34vw;
-    transform: scale(1.7);
-  }
-  .svgCircleText {
-    width: 100vw;
-    transform: scale(1.3);
+    margin-bottom: 21.875vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  .svgCircle {
-    width: unset;
-    transform: scale(2.6);
+  .circleFirst {
+    height: 15.513vw;
+    margin-left: unset;
   }
-  .svgCircleText {
-    width: 70vw;
-    transform: scale(2.2);
-    /* background-color: transparent; */
-    /* opacity: 0.3; */
+  .circleSecond {
+    margin-right: -4vw;
   }
-  .dPageCircle__full {
-    width: 15.625vw;
-    height: 15.625vw;
+  .circleSecondGroupTwo {
+    height: 20.513vw;
+    margin-right: 54vw;
+    margin-left: unset;
   }
-  .dPageCircle__border {
-    width: 10.417vw;
-    height: 10.417vw;
+  .circleSecondGroupThree {
+    margin-right: 10vw;
+    margin-left: -1vw;
   }
-  .dPage__circleText {
-    font-size: 2.5vw;
-  }
-  #twoNoMidText,
-  #threeNoMidText {
-    font-size: 2.1vw;
-    text-align: center;
-  }
-  #fiveText {
-    font-size: 1.9vw;
-    text-align: center;
-    left: 16%;
-    bottom: 30%;
+  .comingSoon {
+    margin-right: 18vw;
   }
 
-  #firstCircle {
-    margin-top: -8vw;
+  /* the nth-child's below are for the pink circles and the non nth's are for the gold */
+  .circleSecondGroupThree:nth-child(2) {
+    margin-right: -3vw;
+    margin-left: 8vw;
+  }
+  .comingSoon:nth-child(1) {
+    margin-left: 15vw;
+    margin-right: 5vw;
   }
 }

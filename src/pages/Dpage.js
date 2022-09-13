@@ -1,53 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Dpage.css";
 
 function Dpage() {
-  const [showComponent, setShowComponent] = useState(false);
-  const [showComponent2, setShowComponent2] = useState(false);
-  const [showComponent3, setShowComponent3] = useState(false);
-  const [showComponent4, setShowComponent4] = useState(false);
-  const [showComponent5, setShowComponent5] = useState(false);
-  const [showComponent6, setShowComponent6] = useState(false);
-  const [showComponent7, setShowComponent7] = useState(false);
-  const [showComponent8, setShowComponent8] = useState(false);
-
+  const appear = (id) => {
+    document.getElementById(id).style.display = "unset";
+  };
   return (
     <div className="dPage__container">
       <span className="pageTitle dPage__headerTitle">PROJECT D</span>
-
-      <div
-        // id="firstCircle"
-        className="dContainer"
-      >
-        <div
-          onClick={() => {
-            setShowComponent(!showComponent);
-          }}
-          // className="dPageCircle__full"
-        >
+      <div className="dPage__circleContainer">
+        <div className="dPage__circleRows">
+          <img
+            id="dFirstCircle1"
+            src="/img/redCircle1.svg"
+            alt="red circle"
+            className="circleFirst"
+            onClick={() => appear("dCircle1", "dFirstCircle1")}
+          />
           <svg
-            className="svgCircle"
-            xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
-            viewBox="0 0 300 300"
-          >
-            <circle
-              id="Ellipse_70"
-              data-name="Ellipse 70"
-              cx="150"
-              cy="150"
-              r="150"
-              fill="#de1717"
-            />
-          </svg>
-        </div>
-        {showComponent && (
-          <svg
-            className="svgCircleText"
+            id="dCircle1"
+            className="circleSecond"
             xmlns="http://www.w3.org/2000/svg"
             width="1021"
-            height="100"
+            height="240"
             viewBox="0 0 1021 240"
           >
             <g
@@ -115,7 +90,7 @@ function Dpage() {
                 stroke="#2b66a0"
                 stroke-width="1"
                 font-size="45"
-                fontFamily="C90Degree"
+                font-family="C90Degree"
                 letter-spacing="0.022em"
               >
                 <tspan x="0" y="0">
@@ -129,7 +104,7 @@ function Dpage() {
                 stroke="#2b66a0"
                 stroke-width="1"
                 font-size="50"
-                fontFamily="C90Degree"
+                font-family="C90Degree"
                 letter-spacing="0.022em"
               >
                 <tspan x="-51" y="0">
@@ -138,59 +113,76 @@ function Dpage() {
               </text>
             </g>
           </svg>
-        )}
-      </div>
-
-      <div className="dContainer__noMiddleText">
-        {showComponent2 && (
-          <div className="dPage__circleRight">
-            <div id="oneNoMidBorder" className="dPageCircle__border">
-              <span id="oneNoMidText" className="dPage__circleText">
-                Toothbrush
-              </span>
-            </div>
-          </div>
-        )}
-        <div
-          onClick={() => {
-            setShowComponent2(!showComponent2);
-          }}
-          id="oneNoMidFull"
-          className="dPageCircle__full"
-        ></div>
-      </div>
-
-      <div className="dContainer">
-        <div
-          onClick={() => {
-            setShowComponent3(!showComponent3);
-          }}
-          // id="twoFull"
-          // className="dPageCircle__full"
-        >
-          <svg
-            className="svgCircle"
-            xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
-            viewBox="0 0 300 300"
-          >
-            <circle
-              id="Ellipse_72"
-              data-name="Ellipse 72"
-              cx="150"
-              cy="150"
-              r="150"
-              fill="#ddc73e"
-            />
-          </svg>
         </div>
-        {showComponent3 && (
+        <div className="dPage__circleRows">
           <svg
-            className="svgCircleText"
+            className="circleSecondGroupTwo"
+            id="dCircle2"
+            xmlns="http://www.w3.org/2000/svg"
+            width="240"
+            height="240"
+            viewBox="0 0 240 240"
+          >
+            <g
+              id="Group_322"
+              data-name="Group 322"
+              transform="translate(-252 -1050)"
+            >
+              <g
+                id="Component_13_34"
+                data-name="Component 13 – 34"
+                transform="translate(272 1070)"
+              >
+                <g
+                  id="Ellipse_246"
+                  data-name="Ellipse 246"
+                  fill="#fff"
+                  stroke="#3f6d5b"
+                  stroke-linecap="round"
+                  stroke-width="20"
+                >
+                  <circle cx="100" cy="100" r="100" stroke="none" />
+                  <circle cx="100" cy="100" r="110" fill="none" />
+                </g>
+              </g>
+              <text
+                id="Toothbrush"
+                transform="translate(372.5 1180.5)"
+                fill="#2972ae"
+                stroke="#2b66a0"
+                stroke-width="1"
+                font-size="50"
+                font-family="C90Degree"
+                letter-spacing="0.022em"
+              >
+                <tspan x="-94" y="0">
+                  Toothbrush
+                </tspan>
+              </text>
+            </g>
+          </svg>
+          <img
+            id="dFirstCircle2"
+            src="/img/greenCircle1.svg"
+            alt="green circle"
+            className="circleFirstRight"
+            onClick={() => appear("dCircle2", "dFirstCircle2")}
+          />
+        </div>
+        <div className="dPage__circleRows">
+          <img
+            id="dFirstCircle3"
+            src="/img/yellowCircle1.svg"
+            alt="yellow circle"
+            className="circleFirst"
+            onClick={() => appear("dCircle3", "dFirstCircle3")}
+          />
+          <svg
+            id="dCircle3"
+            className="circleSecond"
             xmlns="http://www.w3.org/2000/svg"
             width="850.75"
-            height="100"
+            height="240"
             viewBox="0 0 850.75 240"
           >
             <g
@@ -295,70 +287,81 @@ function Dpage() {
               />
             </g>
           </svg>
-
-          // <div className="dPage__circleRight">
-          //   <div id="twoTri" className="dPageTri__right"></div>
-          //   <div id="twoBorder" className="dPageCircle__border">
-          //     <span id="twoText" className="dPage__circleText">
-          //       Fish
-          //     </span>
-          //     <span className="dPage__middleText1">Fish Bar Over 21</span>
-          //     <span className="dPage__middleText2">Fish Elementary</span>
-          //   </div>
-          // </div>
-        )}
-      </div>
-
-      <div className="dContainer__noMiddleText">
-        {showComponent4 && (
-          <div className="dPage__circleRight">
-            <div id="twoNoMidBorder" className="dPageCircle__border">
-              <div id="twoNoMidText" className="dPage__circleText">
-                Index of Heartbreak
-              </div>
-            </div>
-          </div>
-        )}
-        <div
-          onClick={() => {
-            setShowComponent4(!showComponent4);
-          }}
-          id="twoNoMidFull"
-          className="dPageCircle__full"
-        ></div>
-      </div>
-
-      <div className="dContainer">
-        <div
-          onClick={() => {
-            setShowComponent5(!showComponent5);
-          }}
-          // id="threeFull"
-          // className="dPageCircle__full"
-        >
-          <svg
-            className="svgCircle"
-            xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
-            viewBox="0 0 300 300"
-          >
-            <circle
-              id="Ellipse_74"
-              data-name="Ellipse 74"
-              cx="150"
-              cy="150"
-              r="150"
-              fill="#2972ae"
-            />
-          </svg>
         </div>
-        {showComponent5 && (
+        <div className="dPage__circleRows">
           <svg
-            className="svgCircleText"
+            id="dCircle4"
+            className="circleSecondGroupTwo"
+            xmlns="http://www.w3.org/2000/svg"
+            width="240"
+            height="240"
+            viewBox="0 0 240 240"
+          >
+            <g
+              id="Group_321"
+              data-name="Group 321"
+              transform="translate(-270 -2455)"
+            >
+              <g
+                id="Component_13_36"
+                data-name="Component 13 – 36"
+                transform="translate(290 2475)"
+              >
+                <g
+                  id="Ellipse_246"
+                  data-name="Ellipse 246"
+                  fill="#fff"
+                  stroke="#a8adc0"
+                  stroke-linecap="round"
+                  stroke-width="20"
+                >
+                  <circle cx="100" cy="100" r="100" stroke="none" />
+                  <circle cx="100" cy="100" r="110" fill="none" />
+                </g>
+              </g>
+              <text
+                id="Index_of_Heartbreak"
+                data-name="Index of Heartbreak"
+                transform="translate(390 2560)"
+                fill="#2972ae"
+                stroke="#2b66a0"
+                stroke-width="1"
+                font-size="42"
+                font-family="C90Degree"
+                letter-spacing="0.022em"
+              >
+                <tspan x="-60" y="0">
+                  Index of
+                </tspan>
+                <tspan x="-93" y="46">
+                  Heartbreak
+                </tspan>
+              </text>
+            </g>
+          </svg>
+
+          <img
+            id="dFirstCircle4"
+            onClick={() => appear("dCircle4", "dFirstCircle4")}
+            src="/img/greyCircle1.svg"
+            alt="grey circle"
+            className="circleFirstRight"
+          />
+        </div>
+        <div className="dPage__circleRows">
+          <img
+            id="dFirstCircle5"
+            onClick={() => appear("dCircle5", "dFirstCircle5")}
+            src="/img/blueCircle1.svg"
+            alt="red circle"
+            className="circleFirst"
+          />
+          <svg
+            id="dCircle5"
+            className="circleSecond"
             xmlns="http://www.w3.org/2000/svg"
             width="979"
-            height="100"
+            height="249"
             viewBox="0 0 979 249"
           >
             <g
@@ -415,7 +418,7 @@ function Dpage() {
               <text
                 id="No_name_musical_complimentary_symbols_"
                 data-name="No name
-        (musical complimentary symbols)"
+(musical complimentary symbols)"
                 transform="translate(960 3345)"
                 fill="#2972ae"
                 stroke="#2b66a0"
@@ -453,86 +456,239 @@ function Dpage() {
               />
             </g>
           </svg>
+        </div>
 
-          // <div className="dPage__circleRight">
-          //   <div id="threeTri" className="dPageTri__right"></div>
-          //   <div id="threeBorder" className="dPageCircle__border">
-          //     <span id="threeText" className="dPage__circleText">
-          //       Languages
-          //     </span>
-          //     <span id="threeMiddleTextOne" className="dPage__middleText1">
-          //       7 letters & Infinite Sounds
-          //     </span>
-          //     <div className="dPage__middleText2">
-          //       No name
-          //       <br />
-          //       (musical complimentary symbols)
-          //     </div>
-          //   </div>
-          // </div>
-        )}
-      </div>
-
-      <div className="dContainer__noMiddleText">
-        {showComponent6 && (
-          <div className="dPage__circleRight">
-            <div id="fourBorder" className="dPageCircle__border">
-              <span id="fourText" className="dPage__circleText">
-                Portrait
-              </span>
-              <span className="dPage__middleTextBottom">COMING SOON </span>
+        <div className="dPage__circleRows">
+          <div id="dCircle6">
+            <div className="comingSoonContainer">
+              <svg
+                className="circleSecondGroupThree"
+                xmlns="http://www.w3.org/2000/svg"
+                width="240"
+                height="240"
+                viewBox="0 0 240 240"
+              >
+                <g
+                  id="Group_326"
+                  data-name="Group 326"
+                  transform="translate(-270 -3879)"
+                >
+                  <g
+                    id="Component_13_38"
+                    data-name="Component 13 – 38"
+                    transform="translate(290 3899)"
+                  >
+                    <g
+                      id="Ellipse_246"
+                      data-name="Ellipse 246"
+                      fill="#fff"
+                      stroke="#d2a53b"
+                      stroke-linecap="round"
+                      stroke-width="20"
+                    >
+                      <circle cx="100" cy="100" r="100" stroke="none" />
+                      <circle cx="100" cy="100" r="110" fill="none" />
+                    </g>
+                  </g>
+                  <text
+                    id="portrait"
+                    transform="translate(390.5 4009.5)"
+                    fill="#2972ae"
+                    stroke="#2b66a0"
+                    stroke-width="1"
+                    font-size="50"
+                    font-family="C90Degree"
+                    letter-spacing="0.022em"
+                  >
+                    <tspan x="-68" y="0">
+                      portrait
+                    </tspan>
+                  </text>
+                </g>
+              </svg>
+              <svg
+                className="comingSoon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="258"
+                height="53"
+                viewBox="0 0 258 53"
+              >
+                <text
+                  id="Coming_soon"
+                  data-name="Coming soon"
+                  transform="translate(129 37)"
+                  fill="#d2a53b"
+                  stroke="#d2a53b"
+                  stroke-width="1"
+                  font-size="50"
+                  font-family="C90Degree"
+                  letter-spacing="0.022em"
+                >
+                  <tspan x="-127" y="0">
+                    COMING SOON
+                  </tspan>
+                </text>
+              </svg>
             </div>
           </div>
-        )}
-        <div
-          onClick={() => {
-            setShowComponent6(!showComponent6);
-          }}
-          id="fourFull"
-          className="dPageCircle__full"
-        ></div>
-      </div>
 
-      <div className="dContainer__noMiddleText">
-        <div
-          onClick={() => {
-            setShowComponent7(!showComponent7);
-          }}
-          id="fiveFull"
-          className="dPageCircle__full"
-        ></div>
-        {showComponent7 && (
-          <div className="dPage__circleRight">
-            <div id="fiveBorder" className="dPageCircle__border">
-              <span id="fiveText" className="dPage__circleText">
-                Plugs <br />
-                From Trash
-              </span>
-              <span id="fiveMiddleText" className="dPage__middleTextBottom">
-                COMING SOON{" "}
-              </span>
+          <img
+            id="dFirstCircle6"
+            src="/img/goldCircle1.svg"
+            alt="gold circle"
+            className="circleComingSoonSolo"
+            onClick={() => appear("dCircle6", "dFirstCircle6")}
+          />
+        </div>
+        <div className="dPage__circleRows">
+          <img
+            id="dFirstCircle7"
+            src="/img/pinkCircle1.svg"
+            alt="pink circle"
+            className="circleComingSoonSolo"
+            onClick={() => appear("dCircle7", "dFirstCircle7")}
+          />
+          <div id="dCircle7">
+            <div className="comingSoonContainer">
+              <svg
+                className="comingSoon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="258"
+                height="53"
+                viewBox="0 0 258 53"
+              >
+                <text
+                  id="Coming_soon"
+                  data-name="Coming soon"
+                  transform="translate(129 37)"
+                  fill="#eaa1c4"
+                  stroke="#eea4c8"
+                  stroke-width="1"
+                  font-size="50"
+                  font-family="C90Degree"
+                  letter-spacing="0.022em"
+                >
+                  <tspan x="-127" y="0">
+                    COMING SOON
+                  </tspan>
+                </text>
+              </svg>
+              <svg
+                className="circleSecondGroupThree"
+                xmlns="http://www.w3.org/2000/svg"
+                width="240"
+                height="240"
+                viewBox="0 0 240 240"
+              >
+                <g
+                  id="Group_327"
+                  data-name="Group 327"
+                  transform="translate(-1418 -4555)"
+                >
+                  <g
+                    id="Component_13_39"
+                    data-name="Component 13 – 39"
+                    transform="translate(1438 4575)"
+                  >
+                    <g
+                      id="Ellipse_246"
+                      data-name="Ellipse 246"
+                      fill="#fff"
+                      stroke="#eea4c8"
+                      stroke-linecap="round"
+                      stroke-width="20"
+                    >
+                      <circle cx="100" cy="100" r="100" stroke="none" />
+                      <circle cx="100" cy="100" r="110" fill="none" />
+                    </g>
+                  </g>
+                  <text
+                    id="Plugs_From_Trash"
+                    data-name="Plugs From Trash"
+                    transform="translate(1538.5 4660.5)"
+                    fill="#2972ae"
+                    stroke="#2b66a0"
+                    stroke-width="1"
+                    font-size="45"
+                    font-family="C90Degree"
+                    letter-spacing="0.022em"
+                  >
+                    <tspan x="-39" y="0">
+                      Plugs
+                    </tspan>
+                    <tspan x="-88" y="50">
+                      From Trash
+                    </tspan>
+                  </text>
+                </g>
+              </svg>
             </div>
           </div>
-        )}
-      </div>
-
-      <div className="dContainer__noMiddleText">
-        {showComponent8 && (
-          <div className="dPage__circleRight">
-            <div id="threeNoMidBorder" className="dPageCircle__border">
-              <span id="threeNoMidText" className="dPage__circleText">
-                Distance, Relationship & Response
-              </span>
-            </div>
-          </div>
-        )}
-        <div
-          onClick={() => {
-            setShowComponent8(!showComponent8);
-          }}
-          id="threeNoMidFull"
-          className="dPageCircle__full"
-        ></div>
+        </div>
+        <div className="dPage__circleRows">
+          <svg
+            id="dCircle8"
+            className="circleSecondGroupTwo"
+            xmlns="http://www.w3.org/2000/svg"
+            width="240"
+            height="240"
+            viewBox="0 0 240 240"
+          >
+            <g
+              id="Group_325"
+              data-name="Group 325"
+              transform="translate(-271 -5272)"
+            >
+              <g
+                id="Component_13_40"
+                data-name="Component 13 – 40"
+                transform="translate(291 5292)"
+              >
+                <g
+                  id="Ellipse_246"
+                  data-name="Ellipse 246"
+                  fill="#fff"
+                  stroke="#b0412f"
+                  stroke-linecap="round"
+                  stroke-width="20"
+                >
+                  <circle cx="100" cy="100" r="100" stroke="none" />
+                  <circle cx="100" cy="100" r="110" fill="none" />
+                </g>
+              </g>
+              <text
+                id="Distance_Relationship_Response"
+                data-name="Distance,
+Relationship
+&amp; Response"
+                transform="translate(391.5 5355.5)"
+                fill="#2972ae"
+                stroke="#2b66a0"
+                stroke-width="1"
+                font-size="42"
+                font-family="C90Degree"
+                letter-spacing="0.022em"
+              >
+                <tspan x="-71" y="0">
+                  Distance,
+                </tspan>
+                <tspan x="-87" y="46">
+                  Relationship
+                </tspan>
+                <tspan x="-80" y="92">
+                  &amp; Response
+                </tspan>
+              </text>
+            </g>
+          </svg>
+          <img
+            id="dFirstCircle8"
+            onClick={() => appear("dCircle8", "dFirstCircle8")}
+            src="/img/redOrangeCircle1.svg"
+            alt="red orange circle"
+            className="circleFirstRight"
+          />
+        </div>
       </div>
     </div>
   );
