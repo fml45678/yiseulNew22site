@@ -258,4 +258,7 @@
     margin-bottom: 1vw;
     letter-spacing: 0.021vw;
   }
+  .you__socialLinksContainer > a {
+    z-index: 1;
+  }
 }

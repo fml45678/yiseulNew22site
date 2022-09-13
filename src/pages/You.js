@@ -107,9 +107,11 @@ function You() {
               <span className="you_socialLinkText">Instagram</span>
             </div>
           </a>
-          <div id="link2" className="you__socialLinks">
-            <span className="you_socialLinkText">Strawberry University</span>
-          </div>
+          <a href="https://www.etsy.com/shop/LeMieuxstudios" target={"blank"}>
+            <div id="link2" className="you__socialLinks">
+              <span className="you_socialLinkText">Strawberry University</span>
+            </div>
+          </a>
           <a
             href="https://www.etsy.com/shop/peppersbandana/?etsrc=sdt"
             target={"blank"}
