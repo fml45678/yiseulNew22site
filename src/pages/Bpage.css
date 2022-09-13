@@ -38,6 +38,7 @@
     flex-wrap: wrap;
     gap: 0vw 5.99vw;
     justify-content: center;
+    margin-top: -7vw;
   }
   .bPageLegend__container {
     column-gap: 8.438vw;

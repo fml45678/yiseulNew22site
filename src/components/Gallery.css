@@ -39,7 +39,7 @@
 @media screen and (min-width: 1200px) {
   .gallery__container {
     row-gap: 1.302vw;
-    margin-top: -2vw;
+    margin-top: 3.982vw;
   }
   .pictureLegend__container {
     gap: 1.302vw;
