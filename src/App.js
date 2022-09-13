@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import { analytics } from "./firebase";
+
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
