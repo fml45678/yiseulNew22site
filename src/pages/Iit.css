@@ -17,6 +17,7 @@
   font-family: "C90Degree";
   font-weight: 700;
   margin-bottom: 2.959vw;
+  pointer-events: none;
 }
 .iIt__bioCv {
   display: flex;
