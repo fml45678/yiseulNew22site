@@ -71,6 +71,7 @@
   background-color: #ddc73e;
   position: relative;
   cursor: pointer;
+  display: none;
 }
 .iIt__circleText {
   font-family: "C90Degree";
